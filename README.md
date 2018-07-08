@@ -1,33 +1,50 @@
 # fundamentosalgoritmos
 
-Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su implementación en lenguaje C. Proyecto de fines educativos.
+Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su implementación en lenguaje C.
+Proyecto de fines educativos.
 
-Un problema algoritmico es aquel que es susceptible de ser resuelto con la ayuda de un 
-computador, ya que requiere la ejecucion de una serie de pasos bien definidos que llevan
-a la obtencion de un resultado a partir de una serie de datos de entrada ingresados
-por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a 
-traves del teclado, otro programa o un sistema externo al mismo.
+Un problema algoritmico es aquel que es susceptible de ser resuelto con la ayuda de un computador, ya que requiere la ejecucion de una serie de pasos bien definidos que llevan a la obtencion de un resultado a partir de una serie de datos de entrada ingresados por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a traves del teclado, otro programa o un sistema externo al mismo.
 
-La descripcion de un problema en lenguaje algoritmico debe cumplir con algunas suposiciones 
-necesarias para una adecuada resolucion del problema que se pretende resolver por medio del 
-uso de una computadora:
+Un algoritmo debe determinar las acciones que se deben ejecutar y el orden en el cual deben ser ejecutadas para resolver un problema con el uso de una computadora.
+
+Ejemplo:
+
+Algoritmo de los pasos que se deben realizar para ir a trabajar:
+
+1. Levantarse de la cama.
+2. Quitarse la pijama.
+3. Tomar una ducha.
+4. Vestirse.
+5. Tomar el desayuno.
+6. Diritirse al trabajo.
+
+Debemos poner de relieve algunas premisas de este algoritmo:
+
+Primeramente el nivel de detalle puede ser diferente segun la interpretacion de quien lo construye y segun el uso que se le hara al algoritmo. Por ejemplo, el paso 4 que corresponde a la accion de vestirse puede ser expresada en pasos mas detallados, segun el requerimiento, puede necesitar ser descompuesto en los detalles siguientes:
+
+Colocarse la ropa interior.
+Colocarse el pantalon.
+Colocarse la camisa.
+Colocarse los calcetines.
+Colocarse los zapatos.
+
+Otro factor a tener en consideracion es el hecho de que las acciones deben ser realizadas en el orden indicado, ya que obviar algun paso o ejecutarlo en un orden diferente al indicado no garantiza la correcta ejecucion de la accion planteada.
+
+La descripcion de un problema en lenguaje algoritmico debe cumplir con algunas suposiciones necesarias para una adecuada resolucion del problema que se pretende resolver por medio del uso de una computadora:
 
 * El numero de datos de entrada para ser procesados por el algoritmo pueden ser indeterminados
   pero debe ser un numero finito de datos.
 * Para poder usar los datos para la realizacion de las operaciones, primero deben obtenerse 
   para su uso.
+* Un algoritmo debe ejecutarse en un numero finito de pasos para considerarse como tal.
 * Los pasos que conforman la descripcion del proceso deben realizarse en el orden especifico 
   en el que fueron especificados.
 * Los pasos que conforman la descripcion del proceso deben pertenecer a acciones 
   correspondientes al repertorio de las realizables por la computadora.
 
-Para fijar un ejemplo de lo que es un problema algoritmico y como se resuelve con el uso
-de la computadora, vamos a resolver el sencillo calculo del valor medio de un grupo de
-datos ingresados por el usuario.
+Para fijar un ejemplo de lo que es un problema algoritmico y como se resuelve con el uso de la computadora, vamos a resolver el sencillo calculo del valor medio de un grupo de datos ingresados por el usuario.
 
-Siguiendo el concepto basico de considerar un algoritmo como el ingreso de unas entradas, 
-un proceso y la obtencion de unas salidas, vamos a realizar este analisis comenzando por 
-desglozar el problema planteado siguiendo este principio.
+Siguiendo el concepto basico de considerar un algoritmo como el ingreso de unas entradas, un proceso y la obtencion de unas salidas, vamos a realizar este analisis comenzando por desglozar el problema planteado siguiendo este principio.
 
 Entrada: esta formada por los datos sobre los que se va a operar para calcular el 
 valor promedio de los mismos.
