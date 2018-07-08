@@ -132,7 +132,15 @@ Lenguaje C.
 El lenguaje C fue desarrollado en los laboratorios AT&T por Dennis Ritchie y es el lenguaje 
 de pogramacion de alto nivel de proposito general más popular.
 
-El lenguaje C se caracteriza por ser un lenguaje:
+Evolucion del lenguaje C:
+
+BCPL: desarrollado en 1969 por Martin Richard como un lenguaje para escribir software de sisteas operativos y compiladores.
+B: Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bel en 197n en una computadora DEC PDP-7.
+BCPL y B eran lenguajes de programacion sin tipado, la labor de elegir entre los tipos de datos era responsabilidad del programador.
+C: C fuen creado a partir de B por Dennis Ritchie en los laboratorios Bel y fue originalmente implementado en una computadora DEC PDP-11 en 1972, inicialmente usado para implementar el sistema operativo UNIX, usa muchos conceptos de BCPL y B con la adicion del tipado de datos y otras caracteristicas.
+C++: es una extension de C creada por Bjarne Stroustup a principios de 1980 en los laboratorios Bell. Entre las caracteristicas agregadas a C++ la mas importante es que provee las posibilidades de programacion orientada a objetos.
+
+El lenguaje C se caracteriza por ser un lenguaje de alto nivel, de proposito general, compilado, con fuerte tipado:
 
 Lenguaje de proposito general lo cual significa que con este lenguaje de programacion se 
 puede desarrollar programas para resolver problemas de una muy amplia gama de propositos.
@@ -143,6 +151,8 @@ lenguaje.
 Lenguaje compilado el codigo fuente conformado por una serie de sentencias en lenguaje de 
 alto nivel es traducido a traves del proceso de compilacion en un archivo en lenguaje de 
 maquina en codigo binario que entiende y ejecuta el computador.
+Lenguaje con tipado de datos el lenguaje proporciona la verificacion del tipo de datos con el que
+realiza las operaciones.
 
 Para el desarrollo del programa se ha elegido el lenguaje de programacion C basicamente
 por las siguientes razones:
