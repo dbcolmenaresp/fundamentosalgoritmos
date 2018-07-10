@@ -1,11 +1,19 @@
 # fundamentosalgoritmos
 
-Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su implementación en lenguaje C.
 Proyecto de fines educativos.
+
+Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su implementación en lenguaje C.
+
+Algoritmos
+-----------------------------------------------------------------------------------------
+
+Un algoritmo es un conjunto finito, ordenado y no ambiguo de reglas y operaciones con el fin de resolver un problema o realizar una acividad determinada.
 
 Un problema algoritmico es aquel que es susceptible de ser resuelto con la ayuda de un computador, ya que requiere la ejecucion de una serie de pasos bien definidos que llevan a la obtencion de un resultado a partir de una serie de datos de entrada ingresados por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a traves del teclado, otro programa o un sistema externo al mismo.
 
 Un algoritmo debe determinar las acciones que se deben ejecutar y el orden en el cual deben ser ejecutadas para resolver un problema con el uso de una computadora.
+
+La ejecucion de un algoritmo implica la entrada, el almacenamiento, el tratamiento y la salida de ciertos datos que deben ser procesados para lograr el fin para el cual se diseña el algoritmo en cuestion.
 
 Ejemplo:
 
@@ -55,9 +63,7 @@ exigido para obtener el valor promedio.
 Salida: el valor promedio resultado del proceso ejecutado sobre los datos previamente 
 ingresados por el usuario.
 
-Un algoritmo esta conformado por un estado previo, en el cual se encuentra al momento
-de iniciar su operacion, y un estado final, en el cual se encuentra luego de haber
-usado las entradas facilitadas y realizado el proceso requerido con estos datos.
+Un algoritmo esta conformado por un estado previo, en el cual se encuentra al momento de iniciar su operacion, y un estado final, en el cual se encuentra luego de haber usado las entradas facilitadas y realizado el proceso requerido con estos datos.
 
 El estado previo se puede definir de la siguiente forma:
 
@@ -74,7 +80,6 @@ de valores determinado.
 
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
------------------------------------------------------------------------------------------
 Representación del problema en lenguaje algoritmico.
 -----------------------------------------------------------------------------------------
 
@@ -105,27 +110,36 @@ como se definio un conjunto no vacio de datos, esto significa que debe existir p
 un dato de entrada para realizar el calculo correspondiente. Se asume para efectos del 
 programa que se va a desarrollar, que los datos se ingresan a traves del teclado.
 
+Mostrar en pantalla el mensaje de ingresar datos para el calculo
+Ingresar dato 1
+Ingresar dato 2
+Ingresar dato 3
+
 2. Determinar el numero de elementos que componen el conjunto de datos de entrada: se debe
 hacer un conteo del numero de datos que se ingresan al programa.
 
+Numero de datos = 3
+
 3. Calcular la suma de todos los valores de los datos ingresados por el usuario: se procede
 a sumar los valores de los datos ingresados por el usuario.
+
+Suma = dato 1 + dato 2 + dato 3
 
 4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores 
 ingresado: se procede a realizar la division entre la suma de los valores de los datos
 ingresados por el usuario y el numero de datos ingresados, el valor obtenido corresponde 
 al valor promedio.
 
+Promedio = Suma / Numero de datos
+
 5. Mostrar el valor promedio de los datos ingresados: se debe determinar si se muestra el 
 valor obtenido o se pasa como un valor a otra funcion u otro dispositivo que lo requiera,
 en el caso que nos ocupa, se muestra el valor en la pantalla del computador.
 
-Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, 
-se procede a realizar su construccion en un lenguaje de programacion que permita 
-ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de
-manera automatica.
+Mostrar en pantalla el valor Promedio
 
------------------------------------------------------------------------------------------
+Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, se procede a realizar su construccion en un lenguaje de programacion que permita ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de manera automatica.
+
 Lenguaje C.
 -----------------------------------------------------------------------------------------
 
@@ -174,13 +188,13 @@ utilizados que se basan en la sintaxis del lenguaje C. Algunos de los lenguajes 
 sintaxis deriva del lenguaje C son:
 
 * C++ es una version ampliada del lenguaje C que agrega la posibilidad de usar 
-caracteristicas de la programacion orientada a objetos, usado para desarrollar aplicaciones 
-de escritorio y videojuegos de diferentes plataformas.
+  caracteristicas de la programacion orientada a objetos, usado para desarrollar aplicaciones 
+  de escritorio y videojuegos de diferentes plataformas.
 * Java, javascript, PHP usados principalmente para el desarrollo de aplicaciones web.
 * Objetive-C usado para desarrollar aplicaciones en la plataforma iOS.
-C* # usado para desarrollar aplicaciones de Windows Phone y juegos de XBOX 360.
+  C* # usado para desarrollar aplicaciones de Windows Phone y juegos de XBOX 360.
 * Perl es un conocido lenguaje usado para el diseño web en sus inicios, actualmente muy usado 
-en labores de administracion de sistemas.
+  en labores de administracion de sistemas.
 
 Con la intensión de mantener la portabilidad entre diferentes plataformas, un grupo de 
 fabricantes solicitaron en 1983 al Instituto Estadounidende se Estandares nacionales ANSI, 
@@ -241,3 +255,58 @@ int scanf("%x1%x2", &argumento1, &argumento2, ...);
 La funcion scanf() devuelve como valor de retorno el numero de conversiones de formato 
 realizadas con exito.
 
+Codificacion del algoritmo en lenguaje C.
+-----------------------------------------------------------------------------------------
+
+Para realizar la construccion del programa a partir del algoritmo diseñado se procede a traducir las instrucciones en lenguaje de pseudocodigo a lenguaje con la sintaxis de C.
+
+Pre: entrada = un conjunto no vacio de valores numericos comprendidos dentro de un rango 
+de valores determinado.
+
+1. Obtener los datos de entrada.
+
+//Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos
+	printf("\n");                                //Sentencia que muestra una linea en blanco
+  //Sentencia que muestra un mensaje en la pantalla
+  printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");
+	//Sentencia que espera un valor desde el teclado para ser asignado a la variable indicada
+	scanf("%d", &variable1);
+	scanf("%d", &variable2);
+	scanf("%d", &variable3);
+	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);
+
+2. Determinar el numero de elementos que componen el conjunto de datos de entrada.
+
+	//se ingresan 3 argumentos
+	n = 3;
+
+3. Calcular la suma de todos los valores de los datos ingresados por el usuario.
+
+	//Sentencia que le asigna a la varialbe suma el resultado de la operacion aritmetica suma de las variables
+	//variable1, variable2 y variable3
+	suma = variable1 + variable2 + variable3;
+
+4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.
+
+	//Sentencia que le asigna a la varible promedio el resultado de la operacion aritmetica divicion entre 
+	//las variables suma y n
+	promedio = suma / n;
+
+5. Mostrar el valor promedio de los datos ingresados.
+
+	//%f indica que la variable promedio se muestra en pantalla en formato de coma flotante
+	printf("\nEl valor promedio es: %f\n", promedio);
+
+Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
+
+Referencias:
+------------------------------------------------------------------------
+
+B. A. Trajtenbrot. Algoritmos y resolucion automatica de problemas. Editorial MIR. Disponible en:
+http://www.librosmaravillosos.com/losalgoritmosylaresolucion/index.html
+
+Pere Brunet. Nosotros y los algoritmos. El Mundo. Disponible en:
+http://www.elmundo.es/economia/2017/02/27/58b404f846163fc7208b45cd.html
+
+Aprenda lenguaje ANCI C como si estuviera en primero. Javier Garcia de Jalón de la Fuente y otros. Escuela Superior de Ingenieros Industriales. Universidad de Navarra. Disponible en:
+www4.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/ansic/leng_c.pdf
