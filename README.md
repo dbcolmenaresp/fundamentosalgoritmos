@@ -30,24 +30,24 @@ Debemos poner de relieve algunas premisas de este algoritmo:
 
    Primeramente el nivel de detalle puede ser diferente segun la interpretacion de quien lo construye y segun el uso que se le hara al algoritmo. Por ejemplo, el paso 4 que corresponde a la accion de vestirse puede ser expresada en pasos mas detallados, segun el requerimiento, puede necesitar ser descompuesto en los detalles siguientes:
 
-Colocarse la ropa interior.
-Colocarse el pantalon.
-Colocarse la camisa.
-Colocarse los calcetines.
-Colocarse los zapatos.
+- Colocarse la ropa interior.
+- Colocarse el pantalon.
+- Colocarse la camisa.
+- Colocarse los calcetines.
+- Colocarse los zapatos.
 
    Otro factor a tener en consideracion es el hecho de que las acciones deben ser realizadas en el orden indicado, ya que obviar algun paso o ejecutarlo en un orden diferente al indicado no garantiza la correcta ejecucion de la accion planteada.
 
    La descripcion de un problema en lenguaje algoritmico debe cumplir con algunas suposiciones necesarias para una adecuada resolucion del problema que se pretende resolver por medio del uso de una computadora:
 
-* El numero de datos de entrada para ser procesados por el algoritmo pueden ser indeterminados
+- El numero de datos de entrada para ser procesados por el algoritmo pueden ser indeterminados
   pero debe ser un numero finito de datos.
-* Para poder usar los datos para la realizacion de las operaciones, primero deben obtenerse 
+- Para poder usar los datos para la realizacion de las operaciones, primero deben obtenerse 
   para su uso.
-* Un algoritmo debe ejecutarse en un numero finito de pasos para considerarse como tal.
-* Los pasos que conforman la descripcion del proceso deben realizarse en el orden especifico 
+- Un algoritmo debe ejecutarse en un numero finito de pasos para considerarse como tal.
+- Los pasos que conforman la descripcion del proceso deben realizarse en el orden especifico 
   en el que fueron especificados.
-* Los pasos que conforman la descripcion del proceso deben pertenecer a acciones 
+- Los pasos que conforman la descripcion del proceso deben pertenecer a acciones 
   correspondientes al repertorio de las realizables por la computadora.
 
    Para fijar un ejemplo de lo que es un problema algoritmico y como se resuelve con el uso de la computadora, vamos a resolver el sencillo calculo del valor medio de un grupo de datos ingresados por el usuario.
@@ -139,52 +139,53 @@ Mostrar en pantalla el valor Promedio
 
 ## Evolucion del lenguaje C:
 
-* BCPL: desarrollado en 1969 por Martin Richard como un lenguaje para escribir software de sisteas operativos y compiladores.
-* B: Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bel en 197n en una computadora DEC PDP-7.
+- BCPL: desarrollado en 1969 por Martin Richard como un lenguaje para escribir software de sisteas operativos y compiladores.
+- B: Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bel en 197n en una computadora DEC PDP-7.
 BCPL y B eran lenguajes de programacion sin tipado, la labor de elegir entre los tipos de datos era responsabilidad del programador.
-* C: C fuen creado a partir de B por Dennis Ritchie en los laboratorios Bel y fue originalmente implementado en una computadora DEC PDP-11 en 1972, inicialmente usado para implementar el sistema operativo UNIX, usa muchos conceptos de BCPL y B con la adicion del tipado de datos y otras caracteristicas.
-* C++: es una extension de C creada por Bjarne Stroustup a principios de 1980 en los laboratorios Bell. Entre las caracteristicas agregadas a C++ la mas importante es que provee las posibilidades de programacion orientada a objetos.
+- C: C fuen creado a partir de B por Dennis Ritchie en los laboratorios Bel y fue originalmente implementado en una computadora DEC PDP-11 en 1972, inicialmente usado para implementar el sistema operativo UNIX, usa muchos conceptos de BCPL y B con la adicion del tipado de datos y otras caracteristicas.
+- C++: es una extension de C creada por Bjarne Stroustup a principios de 1980 en los laboratorios Bell. Entre las caracteristicas agregadas a C++ la mas importante es que provee las posibilidades de programacion orientada a objetos.
 
 El lenguaje C se caracteriza por ser un lenguaje de alto nivel, de proposito general, compilado, con fuerte tipado:
 
-* Lenguaje de proposito general lo cual significa que con este lenguaje de programacion se puede desarrollar programas para resolver problemas de una muy amplia gama de propositos.
-* Lenguaje de alto nivel las sentencias que conforman el lenguaje se expresan en un lenguaje que se entiende facilmente, parecido al lenguaje inglés con reglas estrictas de sintaxis, lo que aporta legibilidad y facilidad de mantenimiento a los programas desarrollados en este lenguaje.
-* Lenguaje compilado el codigo fuente conformado por una serie de sentencias en lenguaje de alto nivel es traducido a traves del proceso de compilacion, en un archivo en lenguaje de maquina en codigo binario que entiende y ejecuta el computador.
-* Lenguaje de formato estructurado.
-* Lenguaje con tipado de datos el lenguaje proporciona la verificacion del tipo de datos con el que realiza las operaciones.
+- Lenguaje de proposito general lo cual significa que con este lenguaje de programacion se puede desarrollar programas para resolver problemas de una muy amplia gama de propositos.
+- Lenguaje de alto nivel las sentencias que conforman el lenguaje se expresan en un lenguaje que se entiende facilmente, parecido al lenguaje inglés con reglas estrictas de sintaxis, lo que aporta legibilidad y facilidad de mantenimiento a los programas desarrollados en este lenguaje.
+- Lenguaje compilado el codigo fuente conformado por una serie de sentencias en lenguaje de alto nivel es traducido a traves del proceso de compilacion, en un archivo en lenguaje de maquina en codigo binario que entiende y ejecuta el computador.
+- Lenguaje de formato estructurado.
+- Lenguaje con tipado de datos el lenguaje proporciona la verificacion del tipo de datos con el que realiza las operaciones.
 
 Para el desarrollo del programa se ha elegido el lenguaje de programacion C basicamente por las siguientes razones:
 
-De facil aprendizaje por ser un lenguaje formado por pocas palabras clave y pocos comandos que recordar, que aunado a la facilidad de comprension por ser un lenguaje de alto nivel, permite comprender la programacion en el lenguaje C con relativa facilidad.
-Potencia y versatilidad se pueden hacer muchas cosas con este lenguaje.
-Eficiencia los programas escritos en el lenguaje de programación C se traducen a lenguaje de maquina para la plataforma en la cual se compila, lo cual contribuye a la obtencion de programas mas eficientes.
-Portabilidad multiplataforma los programas hechos en este lenguaje pueden ser ejecutados en diferentes plataformas para las cuales exista un compilador que convierta adecuadamente el codigo fuente en el lenguaje de maquina correspondiente.
-Es la base de otros lenguajes la mayoria de lenguajes modernos derivan a partir de este, lo cual supone la ventaja de poder aplicar los conocimientos adquiridos en la programacion en C, en la programacion con otros lenguajes similares mas modernos y 
+- De facil aprendizaje por ser un lenguaje formado por pocas palabras clave y pocos comandos que recordar, que aunado a la facilidad de comprension por ser un lenguaje de alto nivel, permite comprender la programacion en el lenguaje C con relativa facilidad.
+- Potencia y versatilidad se pueden hacer muchas cosas con este lenguaje.
+- Eficiencia los programas escritos en el lenguaje de programación C se traducen a lenguaje de maquina para la plataforma en la cual se compila, lo cual contribuye a la obtencion de programas mas eficientes.
+- Portabilidad multiplataforma los programas hechos en este lenguaje pueden ser ejecutados en diferentes plataformas para las cuales exista un compilador que convierta adecuadamente el codigo fuente en el lenguaje de maquina correspondiente.
+- Es la base de otros lenguajes la mayoria de lenguajes modernos derivan a partir de este, lo cual supone la ventaja de poder aplicar los conocimientos adquiridos en la programacion en C, en la programacion con otros lenguajes similares mas modernos y 
 utilizados que se basan en la sintaxis del lenguaje C. Algunos de los lenguajes cuya sintaxis deriva del lenguaje C son:
 
-* C++ es una version ampliada del lenguaje C que agrega la posibilidad de usar caracteristicas de la programacion orientada a objetos, usado para desarrollar aplicaciones de escritorio y videojuegos de diferentes plataformas.
-* Java, javascript, PHP usados principalmente para el desarrollo de aplicaciones web.
-* Objetive-C usado para desarrollar aplicaciones en la plataforma iOS.
-*  C # usado para desarrollar aplicaciones de Windows Phone y juegos de XBOX 360.
-* Perl es un conocido lenguaje usado para el diseño web en sus inicios, actualmente muy usado en labores de administracion de sistemas.
+	- C++ es una version ampliada del lenguaje C que agrega la posibilidad de usar caracteristicas de la programacion orientada a objetos, usado para desarrollar aplicaciones de escritorio y videojuegos de diferentes plataformas.
+	- Java, javascript, PHP usados principalmente para el desarrollo de aplicaciones web.
+	- Objetive-C usado para desarrollar aplicaciones en la plataforma iOS.
+	-  C # usado para desarrollar aplicaciones de Windows Phone y juegos de XBOX 360.
+	- Perl es un conocido lenguaje usado para el diseño web en sus inicios, actualmente muy usado en labores de administracion de sistemas.
 
    Con la intensión de mantener la portabilidad entre diferentes plataformas, un grupo de fabricantes solicitaron en 1983 al Instituto Estadounidende se Estandares nacionales ANSI, la creacion de un estandar del lenguaje C. Ante esta solicitud se formó el Comite Técnico X3J11, cuyo resultado fue la aprobación en el año 1989 del estándar ANSI del lenguaje C, este estándar reune un grupo de funciones de uso comun de C.
 
    Existen numerosas herramientas disponibles para la compilacion de los programas fuente escritos en lenguaje C en diferentes plataformas, entre los cuales se pueden mencionar los siguientes:
 
-DevC++ compilador libre para compilar codigo fuente en lenguaje C para Windows.
+- DevC++ compilador libre para compilar codigo fuente en lenguaje C para Windows.
 http://orwelldevcpp.blogspot.com/
 
-CodeBlocks compilador disponible en diferentes plataformas para compilar codigo fuente en 
+- CodeBlocks compilador disponible en diferentes plataformas para compilar codigo fuente en 
 lenguaje C.
+http://www.codeblocks.org/
 
-Eclipse para desarrollo C/C++ entorno de desarrollo que ademas de compilar los programas
+- Eclipse para desarrollo C/C++ entorno de desarrollo que ademas de compilar los programas
 escritos en lenguaje C, dispone de numerosas caracteristicas adicionales.
 https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/photonr
 
    El lenguaje C no cuenta con sentencias directas de entrada y salida de datos, por ello se debe usar las funciones contenidas en la libreria estandar correspondiente que permite enviar y recibir datos a traves de los perifericos. Esta libreria se invoca en el programa a traves de la siguente sentencia:
 
-#include <stdio.h>;
+´#include <stdio.h>;´
 
 Esta libreria brinda las funciones necesarias para mostrar informacion y recibirla a traves 
 de los canales de entrada y salida, por defecto el monitor y el teclado.
@@ -193,7 +194,7 @@ La funcion printf() imprime en la unidad de salida, el monitor, el texto y las c
 variables que se indiquen a traves de la misma. El formato general de esta funcion es la 
 mostrada a continuacion:
 
-int printf("cadena de control", tipoargumento1, tipoargumento2, ...);
+´int printf("cadena de control", tipoargumento1, tipoargumento2, ...);´
 
 la funcion printf() tiene un valor de retorno de tipo int que representa el numero de 
 caracteres escritos en la llamada.
@@ -214,7 +215,7 @@ formato se indica de la siguiente manera:
 La funcion scanf() se usa para leer datos de la entrada estandar, el teclado por defecto, la
 forma general de esta funcion es la siguiente:
 
-int scanf("%x1%x2", &argumento1, &argumento2, ...);
+´int scanf("%x1%x2", &argumento1, &argumento2, ...);´
 
 La funcion scanf() devuelve como valor de retorno el numero de conversiones de formato 
 realizadas con exito.
@@ -230,36 +231,36 @@ de valores determinado.
 1. Obtener los datos de entrada.
 
   //Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos
-	printf("\n");                                //Sentencia que muestra una linea en blanco
+´	printf("\n");                                //Sentencia que muestra una linea en blanco´
   //Sentencia que muestra un mensaje en la pantalla
-  printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");
-	//Sentencia que espera un valor desde el teclado para ser asignado a la variable indicada
-	scanf("%d", &variable1);
-	scanf("%d", &variable2);
-	scanf("%d", &variable3);
-	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);
+´        printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");´
+  //Sentencia que espera un valor desde el teclado para ser asignado a la variable indicada
+´	scanf("%d", &variable1);´
+´	scanf("%d", &variable2);´
+´	scanf("%d", &variable3);´
+´	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);´
 
 2. Determinar el numero de elementos que componen el conjunto de datos de entrada.
 
 	//se ingresan 3 argumentos
-	n = 3;
+´	n = 3;´
 
 3. Calcular la suma de todos los valores de los datos ingresados por el usuario.
 
 	//Sentencia que le asigna a la varialbe suma el resultado de la operacion aritmetica suma de las variables
 	//variable1, variable2 y variable3
-	suma = variable1 + variable2 + variable3;
+´	suma = variable1 + variable2 + variable3;´
 
 4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.
 
 	//Sentencia que le asigna a la varible promedio el resultado de la operacion aritmetica divicion entre 
 	//las variables suma y n
-	promedio = suma / n;
+´	promedio = suma / n;´
 
 5. Mostrar el valor promedio de los datos ingresados.
 
 	//%f indica que la variable promedio se muestra en pantalla en formato de coma flotante
-	printf("\nEl valor promedio es: %f\n", promedio);
+´	printf("\nEl valor promedio es: %f\n", promedio);´
 
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
