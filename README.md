@@ -4,7 +4,7 @@ Proyecto de fines educativos.
 
 Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su implementación en lenguaje C.
 
-Algoritmos
+# Algoritmos
 -----------------------------------------------------------------------------------------
 
    Un algoritmo es un conjunto finito, ordenado y no ambiguo de reglas y operaciones con el fin de resolver un problema o realizar una acividad determinada.
@@ -79,15 +79,10 @@ de valores determinado.
 
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
-Representación del problema en lenguaje algoritmico.
+# Representación del problema en lenguaje algoritmico.
 -----------------------------------------------------------------------------------------
 
-   Una vez determinados el estado inicial y final del algoritmo, lo que representa la entrada
-y la salida del mismo, procedemos a describir el proceso que debe ser ejecutado para
-a partir de las entradas definidas, obtener el resultado final esperado, proceso durante 
-el cual el usuario pierde el control sobre el algoritmo que se esta ejecutando y todo el 
-proceso es completamente automatico. El proceso que debe ser llevado a cabo para obtener
-el valor promedio de una serie de datos de entrada se describe a continuacion:
+   Una vez determinados el estado inicial y final del algoritmo, lo que representa la entrada y la salida del mismo, procedemos a describir el proceso que debe ser ejecutado para a partir de las entradas definidas, obtener el resultado final esperado, proceso durante el cual el usuario pierde el control sobre el algoritmo que se esta ejecutando y todo el proceso es completamente automatico. El proceso que debe ser llevado a cabo para obtener el valor promedio de una serie de datos de entrada se describe a continuacion:
 
 1. Obtener los datos de entrada.
 2. Determinar el numero de elementos que componen el conjunto de datos de entrada.
@@ -96,9 +91,7 @@ el valor promedio de una serie de datos de entrada se describe a continuacion:
 ingresado.
 5. Mostrar el valor promedio de los datos ingresados.
 
-   Una vez establecidos los pasos que deben ser ejecutados para lograr el resultado deseado,
-se procede a describir de manera detallada cada paso con al finalidad de alcarar el proceso
-que debe ser realizado en cada paso para su posterior codificacion.
+   Una vez establecidos los pasos que deben ser ejecutados para lograr el resultado deseado, se procede a describir de manera detallada cada paso con al finalidad de alcarar el proceso que debe ser realizado en cada paso para su posterior codificacion.
 
 1. Obtener los datos de entrada: en este paso se deben determinar previamente aspectos tales
 como el numero minimo y maximo de datos que se va a ingresar, el rango dentro del cual 
@@ -139,12 +132,12 @@ Mostrar en pantalla el valor Promedio
 
    Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, se procede a realizar su construccion en un lenguaje de programacion que permita ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de manera automatica.
 
-Lenguaje C.
+# Lenguaje C.
 -----------------------------------------------------------------------------------------
 
    El lenguaje C fue desarrollado en los laboratorios AT&T por Dennis Ritchie y es el lenguaje de pogramacion de alto nivel de proposito general más popular.
 
-Evolucion del lenguaje C:
+## Evolucion del lenguaje C:
 
 * BCPL: desarrollado en 1969 por Martin Richard como un lenguaje para escribir software de sisteas operativos y compiladores.
 * B: Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bel en 197n en una computadora DEC PDP-7.
@@ -226,7 +219,7 @@ int scanf("%x1%x2", &argumento1, &argumento2, ...);
 La funcion scanf() devuelve como valor de retorno el numero de conversiones de formato 
 realizadas con exito.
 
-Codificacion del algoritmo en lenguaje C.
+# Codificacion del algoritmo en lenguaje C.
 -----------------------------------------------------------------------------------------
 
 Para realizar la construccion del programa a partir del algoritmo diseñado se procede a traducir las instrucciones en lenguaje de pseudocodigo a lenguaje con la sintaxis de C.
@@ -236,7 +229,7 @@ de valores determinado.
 
 1. Obtener los datos de entrada.
 
-//Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos
+  //Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos
 	printf("\n");                                //Sentencia que muestra una linea en blanco
   //Sentencia que muestra un mensaje en la pantalla
   printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");
@@ -270,7 +263,7 @@ de valores determinado.
 
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
-Referencias:
+# Referencias:
 ------------------------------------------------------------------------
 
 B. A. Trajtenbrot. Algoritmos y resolucion automatica de problemas. Editorial MIR. Disponible en:
