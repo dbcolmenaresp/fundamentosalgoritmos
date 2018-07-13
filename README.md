@@ -268,10 +268,17 @@ Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entr
 ------------------------------------------------------------------------
 
 B. A. Trajtenbrot. Algoritmos y resolucion automatica de problemas. Editorial MIR. Disponible en:
+
 http://www.librosmaravillosos.com/losalgoritmosylaresolucion/index.html
 
 Pere Brunet. Nosotros y los algoritmos. El Mundo. Disponible en:
+
 http://www.elmundo.es/economia/2017/02/27/58b404f846163fc7208b45cd.html
 
+C: lenguaje de programacion. Disponible en:
+
+https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)
+
 Aprenda lenguaje ANCI C como si estuviera en primero. Javier Garcia de Jalón de la Fuente y otros. Escuela Superior de Ingenieros Industriales. Universidad de Navarra. Disponible en:
+
 www4.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/ansic/leng_c.pdf
