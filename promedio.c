@@ -2,8 +2,7 @@
 valores numericos, a los cuales se les debe calcular el valor promedio y mostrarlo en pantalla*/
 
 /*Autor: Ing. Danny Colmenares
-  @dbcolmenaresp
-*/
+  @dbcolmenaresp*/
 
 //Comentario de una sola linea
 /*Comentario de
@@ -26,6 +25,13 @@ int main(){                                             //Inico del bloque princ
 	float suma, promedio;
 	
 	//Sentencia que muestra en pantalla el mensaje indicado
+	//Presentacion
+	printf("Programa realizado para leer 3 valores numericos\n");
+	printf("calcular el valor promedio y mostrarlo en pantalla\n");
+	printf("Programa realizado con fines educativos\n");
+	printf("Programa realizado por Ing. Danny Colmenares\n");
+	printf("Contacto twitter @dbcolmenaresp\n");
+
 	printf("\nPrograma de calculo de valor promedio.\n");
 	
 	/*Condiciones iniciales del programa
