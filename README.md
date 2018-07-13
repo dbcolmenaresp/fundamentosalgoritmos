@@ -168,6 +168,10 @@ utilizados que se basan en la sintaxis del lenguaje C. Algunos de los lenguajes 
 	-  C # usado para desarrollar aplicaciones de Windows Phone y juegos de XBOX 360.
 	- Perl es un conocido lenguaje usado para el diseño web en sus inicios, actualmente muy usado en labores de administracion de sistemas.
 
+Para un analisis mas exaustivo de las razones para aprender y usar el lenguaje de programacion C, se debe revisar el siguiente articulo
+
+https://cacharrerosdelaweb.com/2017/07/programadores-empezar-por-c.html
+
    Con la intensión de mantener la portabilidad entre diferentes plataformas, un grupo de fabricantes solicitaron en 1983 al Instituto Estadounidende se Estandares nacionales ANSI, la creacion de un estandar del lenguaje C. Ante esta solicitud se formó el Comite Técnico X3J11, cuyo resultado fue la aprobación en el año 1989 del estándar ANSI del lenguaje C, este estándar reune un grupo de funciones de uso comun de C.
 
    Existen numerosas herramientas disponibles para la compilacion de los programas fuente escritos en lenguaje C en diferentes plataformas, entre los cuales se pueden mencionar los siguientes:
