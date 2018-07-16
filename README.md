@@ -6,11 +6,11 @@ Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su im
 
 # Contenido
 
-[Algoritmos](# Algoritmos)
-[Representacion del problema en lenguaje algoritmico](# Representacion del problema en lenguaje algoritmico)
-[Lenguaje C](# Lenguaje C)
-[Codificacion del algoritmo en lenguaje C](# Codificacion del algoritmo en lenguaje C)
-[Referencias](# Referencias)
+[Algoritmos](#algoritmos)  
+[Representacion del problema en lenguaje algoritmico](#representacion del problema en lenguaje algoritmico)
+[Lenguaje C](#lenguaje C)
+[Codificacion del algoritmo en lenguaje C](#codificacion del algoritmo en lenguaje C)
+[Referencias](#referencias)
 
 # Algoritmos
 -----------------------------------------------------------------------------------------
