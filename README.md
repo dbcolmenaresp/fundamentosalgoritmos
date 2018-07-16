@@ -54,7 +54,7 @@ Debemos poner de relieve algunas premisas de este algoritmo:
 - Los pasos que conforman la descripcion del proceso deben realizarse en el orden especifico en el que fueron especificados.
 - Los pasos que conforman la descripcion del proceso deben pertenecer a acciones correspondientes al repertorio de las realizables por la computadora.
 
-   Para representar el diseño de un algoritmo sencillo, se utiliza un lenguaje con sintaxis limitada llamado [pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo), el cual se utiliza con la finalidad de traducir la descripcion del problema a un lenguaje intermedio entre el castellano y el lenguaje de programacion que se va a utilizar para resolver el problema en cuestión, esto con la finalidad de facilitar el diseño del programa.
+   Para representar el diseño de un algoritmo sencillo, se utiliza un lenguaje con sintaxis limitada llamado [pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo), el cual se utiliza con la finalidad de traducir la descripcion del problema a un lenguaje intermedio entre el castellano y el [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n) que se va a utilizar para resolver el problema en cuestión, esto con la finalidad de facilitar el diseño del programa.
    
    Para diseñar algoritmos en pseudocodigo que pueda ser traducido con mayor facilidad a un lenguaje de programacion luego, o simplemente para usar el pseudocodigo para resolver los problemas algoritmicos a los que nos enfrentamos, se puede usar una plataforma muy versatil que permite realizar esta labor, [PSeint](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo), cuyo proyecto donde se puede descargar el programa se encuentra en el siguiente enlace:
 http://pseint.sourceforge.net/
@@ -137,7 +137,7 @@ Mostrar en pantalla el valor Promedio
 # Lenguaje de programación C
 -----------------------------------------------------------------------------------------
 
-   [El lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n) [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) fue desarrollado en los laboratorios AT&T por Dennis Ritchie y es el lenguaje de pogramacion de alto nivel de proposito general más popular.
+   [El lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n) [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) fue desarrollado en los laboratorios AT&T por [Dennis Ritchie](https://es.wikipedia.org/wiki/Dennis_Ritchie "Biografia de Dennis Ritchie"), quien en colaboracion con [Ken Thompson](https://es.wikipedia.org/wiki/Ken_Thompson "Biografia de Ken Thompson") creo el [sistema operativo](https://es.wikipedia.org/wiki/Sistema_operativo) [UNIX](https://es.wikipedia.org/wiki/Unix). C es el lenguaje de pogramacion de alto nivel de proposito general más popular.
 
 ## Evolucion del lenguaje C
 
