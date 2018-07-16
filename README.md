@@ -7,9 +7,9 @@ Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su im
 # Contenido
 
 [Algoritmos](#algoritmos)  
-[Representacion del problema en lenguaje algoritmico](#representacion del problema en lenguaje algoritmico)
-[Lenguaje C](#lenguaje C)
-[Codificacion del algoritmo en lenguaje C](#codificacion del algoritmo en lenguaje C)
+[Representacion del problema en lenguaje algoritmico](#-representacion del problema en lenguaje algoritmico-)
+[Lenguaje de programación C](#-lenguaje de programacion C-)
+[Codificación del algoritmo en lenguaje C](#-codificacion del algoritmo en lenguaje C-)
 [Referencias](#referencias)
 
 # Algoritmos
@@ -134,10 +134,10 @@ Mostrar en pantalla el valor Promedio
 
    Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, se procede a realizar su construccion en un lenguaje de programacion que permita ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de manera automatica.
 
-# Lenguaje C
+# Lenguaje de programación C
 -----------------------------------------------------------------------------------------
 
-   [El lenguaje de programación C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) fue desarrollado en los laboratorios AT&T por Dennis Ritchie y es el lenguaje de pogramacion de alto nivel de proposito general más popular.
+   [El lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n) [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) fue desarrollado en los laboratorios AT&T por Dennis Ritchie y es el lenguaje de pogramacion de alto nivel de proposito general más popular.
 
 ## Evolucion del lenguaje C
 
