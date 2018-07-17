@@ -141,8 +141,8 @@ Mostrar en pantalla el valor Promedio
 
 ## Evolucion del lenguaje de programación C
 
-- [BCPL](https://es.wikipedia.org/wiki/BCPL_(lenguaje_de_programaci%C3%B3n)): desarrollado en 1969 por Martin Richard como un lenguaje para escribir software de sisteas operativos y compiladores.
-- [B](https://es.wikipedia.org/wiki/B_(lenguaje_de_programaci%C3%B3n)): Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bel en 197n en una computadora DEC PDP-7.
+- [BCPL](https://es.wikipedia.org/wiki/BCPL_(lenguaje_de_programaci%C3%B3n)): desarrollado en 1969 por [Martin Richards](https://es.wikipedia.org/wiki/Martin_Richards "Biografia de Martin Richards") como un lenguaje para escribir software de sistemas operativos y [compiladores](https://es.wikipedia.org/wiki/Compilador).
+- [B](https://es.wikipedia.org/wiki/B_(lenguaje_de_programaci%C3%B3n)): Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bell en 1970 en una computadora DEC PDP-7.
 BCPL y B eran lenguajes de programacion sin tipado, la labor de elegir entre los tipos de datos era responsabilidad del programador.
 - [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)): C fuen creado a partir de B por Dennis Ritchie en los laboratorios Bel y fue originalmente implementado en una computadora DEC PDP-11 en 1972, inicialmente usado para implementar el sistema operativo UNIX, usa muchos conceptos de BCPL y B con la adicion del tipado de datos y otras caracteristicas.
 - [C++](https://es.wikipedia.org/wiki/C%2B%2B): es una extension de C creada por [Bjarne Stroustup](https://es.wikipedia.org/wiki/Bjarne_Stroustrup) a principios de 1980 en los laboratorios Bell. Entre las caracteristicas agregadas a C++ la mas importante es que provee las posibilidades de programacion orientada a objetos.
@@ -181,20 +181,20 @@ https://cacharrerosdelaweb.com/2017/07/programadores-empezar-por-c.html
 
    Existen numerosas herramientas disponibles para la compilacion de los programas fuente escritos en lenguaje C en diferentes plataformas, entre los cuales se pueden mencionar los siguientes:
 
-- DevC++ compilador libre para compilar codigo fuente en lenguaje C para Windows.
+- DevC++ compilador libre para compilar codigo fuente en lenguaje C para Windows.  
 http://orwelldevcpp.blogspot.com/
 
 - CodeBlocks compilador disponible en diferentes plataformas para compilar codigo fuente en 
-lenguaje C.
+lenguaje C.  
 http://www.codeblocks.org/
 
 - Eclipse para desarrollo C/C++ entorno de desarrollo que ademas de compilar los programas
-escritos en lenguaje C, dispone de numerosas caracteristicas adicionales.
+escritos en lenguaje C, dispone de numerosas caracteristicas adicionales.  
 https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/photonr
 
    El lenguaje C no cuenta con sentencias directas de entrada y salida de datos, por ello se debe usar las funciones contenidas en la libreria estandar correspondiente que permite enviar y recibir datos a traves de los perifericos. Esta libreria se invoca en el programa a traves de la siguente sentencia:
 
-´#include <stdio.h>;´
+`#include <stdio.h>;`
 
 Esta libreria brinda las funciones necesarias para mostrar informacion y recibirla a traves de los canales de entrada y salida, por defecto el monitor y el teclado.
 
@@ -203,7 +203,7 @@ https://es.wikipedia.org/wiki/Biblioteca_est%C3%A1ndar_de_C
 
 La funcion printf() imprime en la unidad de salida, el monitor, el texto y las constantes y variables que se indiquen a traves de la misma. El formato general de esta funcion es la mostrada a continuacion:
 
-´int printf("cadena de control", tipoargumento1, tipoargumento2, ...);´
+`int printf("cadena de control", tipoargumento1, tipoargumento2, ...);`
 
 la funcion printf() tiene un valor de retorno de tipo int que representa el numero de caracteres escritos en la llamada.
 
@@ -221,7 +221,7 @@ Se imprime la cadena indicada en "cadena de control", ademas de una serie de arg
 
 La funcion scanf() se usa para leer datos de la entrada estandar, el teclado por defecto, la forma general de esta funcion es la siguiente:
 
-´int scanf("%x1%x2", &argumento1, &argumento2, ...);´
+`int scanf("%x1%x2", &argumento1, &argumento2, ...);`
 
 La funcion scanf() devuelve como valor de retorno el numero de conversiones de formato 
 realizadas con exito.
