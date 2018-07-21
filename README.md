@@ -45,7 +45,7 @@ Debemos poner de relieve algunas premisas de este algoritmo:
    Otro factor a tener en consideracion es el hecho de que las acciones deben ser realizadas en el orden indicado, ya que obviar algun paso o ejecutarlo en un orden diferente al indicado no garantiza la correcta ejecucion de la accion planteada.
 
 ## Caracteristicas de los algoritmos
----
+
    La descripcion de un problema en lenguaje algoritmico debe cumplir con algunas suposiciones necesarias para una adecuada resolucion del problema que se pretende resolver por medio del uso de una computadora:
 
 - El numero de datos de entrada para ser procesados por el algoritmo pueden ser indeterminados pero debe ser un numero finito de datos.
@@ -63,11 +63,11 @@ http://pseint.sourceforge.net/
 
    Siguiendo el concepto basico de considerar un algoritmo como el ingreso de unas entradas, un proceso y la obtencion de unas salidas, vamos a realizar este analisis comenzando por desglozar el problema planteado siguiendo este principio.
 
-- Entrada: esta formada por los datos sobre los que se va a operar para calcular el valor promedio de los mismos.
+- *Entrada:* esta formada por los datos sobre los que se va a operar para calcular el valor promedio de los mismos.
 
-- Proceso: realizar la lectura de los datos ingresados por el usuario y ejecutar el calculo exigido para obtener el valor promedio.
+- *Proceso:* realizar la lectura de los datos ingresados por el usuario y ejecutar el calculo exigido para obtener el valor promedio.
 
-- Salida: el valor promedio resultado del proceso ejecutado sobre los datos previamente ingresados por el usuario.
+- *Salida:* el valor promedio resultado del proceso ejecutado sobre los datos previamente ingresados por el usuario.
 
    Un algoritmo esta conformado por un estado previo, en el cual se encuentra al momento de iniciar su operacion, y un estado final, en el cual se encuentra luego de haber usado las entradas facilitadas y realizado el proceso requerido con estos datos.
 
@@ -86,13 +86,12 @@ de valores determinado.
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
 ## Tipos de datos
----
+
 Para determinar de forma clara y precisa el conjunto de valores que se ingresan, procesan y muestran durante la ejecucion de un algoritmo, se debe ter muy claro los tipos de datos que existen para su representacion.
 
 El tipo de dato es el conjunto de valores que puede una variable junto con un conjunto de operaciones que se pueden realizar sobre esa variable.Los tipos de datos basicos son el logico, el caracter, el entero y el valor real.
 
 # Representación del problema en lenguaje algoritmico
----
 
    Un problema algorítmico es aquel que es susceptible de ser resuelto con la ayuda de un computador, ya que requiere la ejecucion de una serie de pasos bien definidos que llevan a la obtencion de un resultado a partir de una serie de datos de entrada ingresados por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a traves del teclado, otro programa o un sistema externo al mismo.
 
@@ -135,12 +134,11 @@ Mostrar en pantalla el valor Promedio
    Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, se procede a realizar su construccion en un lenguaje de programacion que permita ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de manera automatica.
 
 # Lenguaje de programación C
----
 
    [El lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n) [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) fue desarrollado en los laboratorios AT&T por [Dennis Ritchie](https://es.wikipedia.org/wiki/Dennis_Ritchie "Biografia de Dennis Ritchie"), quien en colaboracion con [Ken Thompson](https://es.wikipedia.org/wiki/Ken_Thompson "Biografia de Ken Thompson") creo el [sistema operativo](https://es.wikipedia.org/wiki/Sistema_operativo) [UNIX](https://es.wikipedia.org/wiki/Unix). C es el lenguaje de pogramacion de alto nivel de proposito general más popular.
 
 ## Evolucion del lenguaje de programación C
----
+
 - [BCPL](https://es.wikipedia.org/wiki/BCPL_(lenguaje_de_programaci%C3%B3n)): desarrollado en 1969 por [Martin Richards](https://es.wikipedia.org/wiki/Martin_Richards "Biografia de Martin Richards") como un lenguaje para escribir software de sistemas operativos y [compiladores](https://es.wikipedia.org/wiki/Compilador).
 - [B](https://es.wikipedia.org/wiki/B_(lenguaje_de_programaci%C3%B3n)): Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bell en 1970 en una computadora DEC PDP-7.
 BCPL y B eran lenguajes de programacion sin tipado, la labor de elegir entre los tipos de datos era responsabilidad del programador.
@@ -148,7 +146,7 @@ BCPL y B eran lenguajes de programacion sin tipado, la labor de elegir entre los
 - [C++](https://es.wikipedia.org/wiki/C%2B%2B): es una extension de C creada por [Bjarne Stroustup](https://es.wikipedia.org/wiki/Bjarne_Stroustrup) a principios de 1980 en los laboratorios Bell. Entre las caracteristicas agregadas a C++ la mas importante es que provee las posibilidades de programacion orientada a objetos.
 
 ## Caracteristicas el lenguaje C
----
+
 El lenguaje C se caracteriza por ser un lenguaje de alto nivel, de proposito general, compilado, con fuerte tipado:
 
 - Lenguaje de proposito general lo cual significa que con este lenguaje de programacion se puede desarrollar programas para resolver problemas de una muy amplia gama de propositos.
@@ -223,11 +221,9 @@ La funcion scanf() se usa para leer datos de la entrada estandar, el teclado por
 
 `int scanf("%x1%x2", &argumento1, &argumento2, ...);`
 
-La funcion scanf() devuelve como valor de retorno el numero de conversiones de formato 
-realizadas con exito.
+La funcion scanf() devuelve como valor de retorno el numero de conversiones de formato realizadas con exito.
 
 # Codificacion del algoritmo en lenguaje C
----
 
 Para realizar la construccion del programa a partir del algoritmo diseñado se procede a traducir las instrucciones en lenguaje de pseudocodigo a lenguaje con la sintaxis de C.
 
@@ -236,46 +232,45 @@ de valores determinado.
 
 1. Obtener los datos de entrada.
 
-`  //Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos`
-`	printf("\n");                                //Sentencia que muestra una linea en blanco`
-`  //Sentencia que muestra un mensaje en la pantalla`
-`        printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");`
-`  //Sentencia que espera un valor desde el teclado para ser asignado a la variable indicada`
-`       scanf("%d", &variable1);`
-`	scanf("%d", &variable2);`
-`	scanf("%d", &variable3);`
-`	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);`
+`  //Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos`  
+`	printf("\n");                                //Sentencia que muestra una linea en blanco`  
+`  //Sentencia que muestra un mensaje en la pantalla`  
+`        printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");`  
+`  //Sentencia que espera un valor desde el teclado para ser asignado a la variable indicada`  
+`       scanf("%d", &variable1);`  
+`	scanf("%d", &variable2);`  
+`	scanf("%d", &variable3);`  
+`	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);`  
 
-2. Determinar el numero de elementos que componen el conjunto de datos de entrada.
+2. Determinar el número de elementos que componen el conjunto de datos de entrada.
 
-`	//se ingresan 3 argumentos`
-`	n = 3;`
+`	//se ingresan 3 argumentos`  
+`	n = 3;`  
 
 3. Calcular la suma de todos los valores de los datos ingresados por el usuario.
 
-`	//Sentencia que le asigna a la varialbe suma el resultado de la operacion aritmetica suma de las variables`
-`        //variable1, variable2 y variable3`
-`	suma = variable1 + variable2 + variable3;`
+`	//Sentencia que le asigna a la varialbe suma el resultado de la operacion aritmetica suma de las variables`  
+`       //variable1, variable2 y variable3`  
+`	suma = variable1 + variable2 + variable3;`  
 
 4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.
 
 `	//Sentencia que le asigna a la varible promedio el resultado de la operacion aritmetica divicion entre `
-`	//las variables suma y n`
-`	promedio = suma / n;`
+`	//las variables suma y n`  
+`	promedio = suma / n;`  
 
 5. Mostrar el valor promedio de los datos ingresados.
 
-`	//%f indica que la variable promedio se muestra en pantalla en formato de coma flotante`
-`	printf("\nEl valor promedio es: %f\n", promedio);`
+`	//%f indica que la variable promedio se muestra en pantalla en formato de coma flotante`  
+`	printf("\nEl valor promedio es: %f\n", promedio);`  
 
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
 # Actividad
----
+
 Como se observa en el algoritmo desarrollado, solo se permite el ingreso de tres números para realizar el calculo del valor promedio, como podria modificarse el algoritmo presentado de forma tal que permita recibir un número indeterminado de valores de entrada por teclado para realizar el calculo del valor promedio.
 
 # Referencias:
----
 
 B. A. Trajtenbrot. Algoritmos y resolucion automatica de problemas. Editorial MIR. Disponible en:
 http://www.librosmaravillosos.com/losalgoritmosylaresolucion/index.html
