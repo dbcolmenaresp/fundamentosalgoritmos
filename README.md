@@ -232,37 +232,47 @@ de valores determinado.
 
 1. Obtener los datos de entrada.
 
-`  //Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos`  
-`	printf("\n");                                //Sentencia que muestra una linea en blanco`  
-`  //Sentencia que muestra un mensaje en la pantalla`  
-`        printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");`  
-`  //Sentencia que espera un valor desde el teclado para ser asignado a la variable indicada`  
-`       scanf("%d", &variable1);`  
-`	scanf("%d", &variable2);`  
-`	scanf("%d", &variable3);`  
-`	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);`  
+~~~
+  //Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos  
+	printf("\n");                                //Sentencia que muestra una linea en blanco  
+  //Sentencia que muestra un mensaje en la pantalla  
+        printf("\nIntroduzca a continuacion los datos a ser usados para calcular el promedio.\n");  
+  //Sentencia que espera un valor desde el teclado para ser asignado a la variable indicada  
+       scanf("%d", &variable1);  
+	scanf("%d", &variable2);  
+	scanf("%d", &variable3);  
+	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);  
+~~~
 
 2. Determinar el número de elementos que componen el conjunto de datos de entrada.
 
-`	//se ingresan 3 argumentos`  
-`	n = 3;`  
+~~~
+	//se ingresan 3 argumentos  
+	n = 3;  
+~~~
 
 3. Calcular la suma de todos los valores de los datos ingresados por el usuario.
 
-`	//Sentencia que le asigna a la varialbe suma el resultado de la operacion aritmetica suma de las variables`  
-`       //variable1, variable2 y variable3`  
-`	suma = variable1 + variable2 + variable3;`  
+~~~
+	//Sentencia que le asigna a la varialbe suma el resultado de la operacion aritmetica suma de las variables  
+       //variable1, variable2 y variable3  
+	suma = variable1 + variable2 + variable3;  
+~~~
 
 4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.
 
-`	//Sentencia que le asigna a la varible promedio el resultado de la operacion aritmetica divicion entre `
-`	//las variables suma y n`  
-`	promedio = suma / n;`  
+~~~
+	//Sentencia que le asigna a la varible promedio el resultado de la operacion aritmetica divicion entre  
+	//las variables suma y n  
+	promedio = suma / n;  
+~~~
 
 5. Mostrar el valor promedio de los datos ingresados.
 
-`	//%f indica que la variable promedio se muestra en pantalla en formato de coma flotante`  
-`	printf("\nEl valor promedio es: %f\n", promedio);`  
+~~~
+	//%f indica que la variable promedio se muestra en pantalla en formato de coma flotante  
+	printf("\nEl valor promedio es: %f\n", promedio);  
+~~~
 
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
