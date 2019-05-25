@@ -139,38 +139,26 @@ Mostrar en pantalla el valor Promedio
 
 ## Evolucion del lenguaje de programación C
 
-- [BCPL](https://es.wikipedia.org/wiki/BCPL_(lenguaje_de_programaci%C3%B3n)): desarrollado en 1969 por [Martin Richards](https://es.wikipedia.org/wiki/Martin_Richards "Biografia de Martin Richards") como un lenguaje para escribir software de sistemas operativos y [compiladores](https://es.wikipedia.org/wiki/Compilador).
-- [B](https://es.wikipedia.org/wiki/B_(lenguaje_de_programaci%C3%B3n)): Ken Thompson uso muchas caracteristicas de CPL y uso B para crear una temprana version del sistema operativo UNIX en los laboratorios Bell en 1970 en una computadora DEC PDP-7.
-BCPL y B eran lenguajes de programacion sin tipado, la labor de elegir entre los tipos de datos era responsabilidad del programador.
-- [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)): C fuen creado a partir de B por Dennis Ritchie en los laboratorios Bel y fue originalmente implementado en una computadora DEC PDP-11 en 1972, inicialmente usado para implementar el sistema operativo UNIX, usa muchos conceptos de BCPL y B con la adicion del tipado de datos y otras caracteristicas.
-- [C++](https://es.wikipedia.org/wiki/C%2B%2B): es una extension de C creada por [Bjarne Stroustup](https://es.wikipedia.org/wiki/Bjarne_Stroustrup) a principios de 1980 en los laboratorios Bell. Entre las caracteristicas agregadas a C++ la mas importante es que provee las posibilidades de programacion orientada a objetos.
+El desarrollo del [lenguaje de programación C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)) inicio con el [lenguaje BCPL](https://es.wikipedia.org/wiki/BCPL_(lenguaje_de_programaci%C3%B3n)), desarrollado por [Martin Richards](https://es.wikipedia.org/wiki/Martin_Richards), luego el [lenguaje B](https://es.wikipedia.org/wiki/B_(lenguaje_de_programaci%C3%B3n)) creado por [Ken Thompson](https://es.wikipedia.org/wiki/Ken_Thompson) en 1970, el lenguaje C fue desarrollado por [Dennis Ritchie](https://es.wikipedia.org/wiki/Dennis_Ritchie) en 1971.
 
 ## Caracteristicas el lenguaje C
 
 El lenguaje C se caracteriza por ser un lenguaje de alto nivel, de proposito general, compilado, con fuerte tipado:
 
-- Lenguaje de proposito general lo cual significa que con este lenguaje de programacion se puede desarrollar programas para resolver problemas de una muy amplia gama de propositos.
-- Lenguaje de alto nivel las sentencias que conforman el lenguaje se expresan en un lenguaje que se entiende facilmente, parecido al lenguaje inglés con reglas estrictas de sintaxis, lo que aporta legibilidad y facilidad de mantenimiento a los programas desarrollados en este lenguaje.
-- Lenguaje compilado, el codigo fuente conformado por una serie de sentencias en lenguaje de alto nivel es traducido a traves del proceso de compilacion, en un archivo en lenguaje de maquina en codigo binario que entiende y ejecuta el computador.
-- Lenguaje de formato estructurado.
-- Lenguaje con tipado de datos el lenguaje proporciona la verificacion del tipo de datos con el que realiza las operaciones.
-- El lenguaje C permite la manipulacion directa de bits, bytes, palabras y punteros, esto le hace particularmente adecuado para la programacion de sistemas, en la que estas operaciones son muy comunes.
-- El lenguaje C tiene solo 32 palabras clave (27 estandard originales y 5 añadidas por el comite de estandarizacion de ANSI), numero micho menor al que contienen otros lenguajes de programacion de alto nivel.
+- Reducido tamaño con un numero pequeño de palabras clave, lo cual reduce considerablemente la curva de aprendizaje.  
+- El tamaño reducido del lenguaje es compensado por las bibliotecas estándar que implementan gran cntidad de funciones especializadas.  
+- El lenguaje de programación C tiene un muy reducido conjunto de instrucciones, las cuales se complementan con el uso de bibliotecas de funciones estándar, math.h, lib.h, stdio.h entre otras.  
+- Se recomienda cuando se requiere una función específica en un programa, antes de desarrollar dicha función, por completo, verificar en la biblioteca estándar del compilador que este utilizando si dicha función existe y utilizarla, esto ahorra tiempo de desarrollo y depuración de los programas.  
+- Contiene instrucciones de bajo nivel dirigidas a bits, lo cual le da versatilidad al lenguaje.  
+- La existencia de gran cantidad de compiladores para una gran variedad de plataformas hardware permite su fácil portabilidad.  
+- Se genera código ejecutable de gran eficiencia.  
 
 Para el desarrollo del programa se ha elegido el lenguaje de programacion C basicamente por las siguientes razones:
 
-- De facil aprendizaje por ser un lenguaje formado por pocas palabras clave y pocos comandos que recordar, que aunado a la facilidad de comprension por ser un lenguaje de alto nivel, permite comprender la programacion en el lenguaje C con relativa facilidad.
-- Potencia y versatilidad se pueden hacer muchas cosas con este lenguaje.
-- Eficiencia los programas escritos en el lenguaje de programación C se traducen a lenguaje de maquina para la plataforma en la cual se compila, lo cual contribuye a la obtencion de programas mas eficientes.
-- Portabilidad multiplataforma los programas hechos en este lenguaje pueden ser ejecutados en diferentes plataformas para las cuales exista un compilador que convierta adecuadamente el codigo fuente en el lenguaje de maquina correspondiente.
-- Es la base de otros lenguajes la mayoria de lenguajes modernos derivan a partir de este, lo cual supone la ventaja de poder aplicar los conocimientos adquiridos en la programacion en C, en la programacion con otros lenguajes similares mas modernos y 
-utilizados que se basan en la sintaxis del lenguaje C. Algunos de los lenguajes cuya sintaxis deriva del lenguaje C son:
-
-	- [C++](https://es.wikipedia.org/wiki/C%2B%2B) es una version ampliada del lenguaje C que agrega la posibilidad de usar caracteristicas de la programacion orientada a objetos, usado para desarrollar aplicaciones de escritorio y videojuegos de diferentes plataformas.
-	- [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)), [javascript](https://es.wikipedia.org/wiki/JavaScript), [PHP](https://es.wikipedia.org/wiki/PHP) usados principalmente para el desarrollo de aplicaciones web.
-	- [Objetive-C](https://es.wikipedia.org/wiki/Objective-C) usado para desarrollar aplicaciones en la plataforma iOS.
-	- [C#](https://es.wikipedia.org/wiki/C_Sharp) usado para desarrollar aplicaciones de Windows Phone y juegos de XBOX 360.
-	- [Perl](https://es.wikipedia.org/wiki/Perl) es un conocido lenguaje usado para el diseño web en sus inicios, actualmente muy usado en labores de administracion de sistemas.
+- Moderno, 
+- Fácil de aprender, debido a que dispone de un reducido conjunto de sentencias que permite su fácil memorización y aprendizaje.
+- Sintaxis similar a lenguajes actuales, tales como PHP, JavaScript, Java y otros, lo cual permite aprovechar el aprendizaje del lenguaje C para aprender la sintaxis de otros lenguajes de programación.
+- Programas eficientes
 
 Para un analisis mas exaustivo de las razones para aprender y usar el lenguaje de programacion C, se debe revisar el siguiente articulo
 https://cacharrerosdelaweb.com/2017/07/programadores-empezar-por-c.html
