@@ -294,6 +294,9 @@ Tecnicas de diseño de algoritmos. Disponible en:
 Historia de los algoritmos y los lenguajes de programación (audio). Disponible en:  
 https://www.ivoox.com/417196
 
+Algoritmos. Lista de videos. Disponible en:  
+https://www.youtube.com/playlist?list=PLCZKC1YTwC0mOa4g5QyCNS52-N6VMTmsJ
+
 Fundamentos de programacion Luis Joyanes Aguilar  
 <https://www.freelibros.org/programacion/fundamentos-de-programacion-4ta-edicion-luis-joyanes-aguilar>
 
