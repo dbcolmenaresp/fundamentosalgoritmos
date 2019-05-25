@@ -285,7 +285,7 @@ Como se observa en el algoritmo desarrollado, solo se permite el ingreso de tres
 B. A. Trajtenbrot. Algoritmos y resolucion automatica de problemas. Editorial MIR. Disponible en:
 <http://www.librosmaravillosos.com/losalgoritmosylaresolucion/index.html>
 
-Fundamentos de programacion Luis Joyanes Aguilar
+Fundamentos de programacion Luis Joyanes Aguilar  
 <https://www.freelibros.org/programacion/fundamentos-de-programacion-4ta-edicion-luis-joyanes-aguilar>
 
 Pere Brunet. Nosotros y los algoritmos. El Mundo. Disponible en:
