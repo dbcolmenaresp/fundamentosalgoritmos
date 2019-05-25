@@ -282,8 +282,17 @@ Como se observa en el algoritmo desarrollado, solo se permite el ingreso de tres
 
 # Referencias:
 
+Introducción a la algorítmica. Disponible en:  
+<https://openlibra.com/es/book/introduccion-a-la-algoritmica>
+
 B. A. Trajtenbrot. Algoritmos y resolucion automatica de problemas. Editorial MIR. Disponible en:
 <http://www.librosmaravillosos.com/losalgoritmosylaresolucion/index.html>
+
+Tecnicas de diseño de algoritmos. Disponible en:  
+<https://openlibra.com/es/book/tecnicas-de-diseno-de-algoritmos>
+
+Historia de los algoritmos y los lenguajes de programación (audio). Disponible en:  
+https://www.ivoox.com/417196
 
 Fundamentos de programacion Luis Joyanes Aguilar  
 <https://www.freelibros.org/programacion/fundamentos-de-programacion-4ta-edicion-luis-joyanes-aguilar>
@@ -296,9 +305,3 @@ Fundamentos de programacion en C
 
 Aprenda lenguaje ANCI C como si estuviera en primero. Javier Garcia de Jalón de la Fuente y otros. Escuela Superior de Ingenieros Industriales. Universidad de Navarra. Disponible en:  
 <https://openlibra.com/es/book/aprenda-el-lenguaje-ansi-c-como-si-estuviera-en-primero>
-
-Programacion en C: metodologia, algoritmos y estructura de datos. Disponible en:  
-<https://intprog.files.wordpress.com/2015/08/programacion-en-c-metodologia-algoritmos-y-estructura-de-datos-editorial-mcgraw-hill.pdf>
-
-Librerias estandard C  
-<https://drive.google.com/file/d/1bXma_2ZQiCwHGV0fLSmm_4HW9-3GpCxl/view?usp=sharing>
