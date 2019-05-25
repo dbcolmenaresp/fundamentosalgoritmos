@@ -1,4 +1,4 @@
-# fundamentosalgoritmos
+# Fundamentos de algoritmos
 
 Proyecto de fines educativos.
 
@@ -232,7 +232,7 @@ de valores determinado.
 
 1. Obtener los datos de entrada.
 
-~~~
+```c
   //Se procede a recibir los datos de entrada para resalizar el calculo del promedio de los datos introducidos  
 	printf("\n");                                //Sentencia que muestra una linea en blanco  
   //Sentencia que muestra un mensaje en la pantalla  
@@ -242,37 +242,37 @@ de valores determinado.
 	scanf("%d", &variable2);  
 	scanf("%d", &variable3);  
 	printf("\nLos valores introducidos son: %d, %d, %d\n", variable1, variable2, variable3);  
-~~~
+```c
 
 2. Determinar el número de elementos que componen el conjunto de datos de entrada.
 
-~~~
+```c
 	//se ingresan 3 argumentos  
 	n = 3;  
-~~~
+```
 
 3. Calcular la suma de todos los valores de los datos ingresados por el usuario.
 
-~~~
+```c
 	//Sentencia que le asigna a la varialbe suma el resultado de la operacion aritmetica suma de las variables  
        //variable1, variable2 y variable3  
 	suma = variable1 + variable2 + variable3;  
-~~~
+```
 
 4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.
 
-~~~
+```c
 	//Sentencia que le asigna a la varible promedio el resultado de la operacion aritmetica divicion entre  
 	//las variables suma y n  
 	promedio = suma / n;  
-~~~
+```
 
 5. Mostrar el valor promedio de los datos ingresados.
 
-~~~
+```c
 	//%f indica que la variable promedio se muestra en pantalla en formato de coma flotante  
 	printf("\nEl valor promedio es: %f\n", promedio);  
-~~~
+```
 
 Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entrada.
 
@@ -290,6 +290,9 @@ https://www.freelibros.org/programacion/fundamentos-de-programacion-4ta-edicion-
 
 Pere Brunet. Nosotros y los algoritmos. El Mundo. Disponible en:
 http://www.elmundo.es/economia/2017/02/27/58b404f846163fc7208b45cd.html
+
+Fundamentos de programacion en C
+https://openlibra.com/es/book/fundamentos-de-programacion-en-c
 
 Aprenda lenguaje ANCI C como si estuviera en primero. Javier Garcia de Jalón de la Fuente y otros. Escuela Superior de Ingenieros Industriales. Universidad de Navarra. Disponible en:
 www4.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/ansic/leng_c.pdf
