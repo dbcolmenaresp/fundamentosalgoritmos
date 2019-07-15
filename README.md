@@ -20,6 +20,9 @@ Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su im
    Un algoritmo debe determinar las acciones que se deben ejecutar y el orden en el cual deben ser ejecutadas para resolver un problema con el uso de una computadora.
 
    La ejecucion de un algoritmo implica la entrada, el almacenamiento, el tratamiento y la salida de ciertos datos que deben ser procesados para lograr el fin para el cual se diseña el algoritmo en cuestion.
+   
+   El conocimiento de los fundamentos de la construcción de algoritmos constituye la base para quienes pretenden construir programas y sistemas que cumplan con los más básicas atributos de calidad: robustez, confiabilidad, eficiencia, economía.
+Para que se cumpla con el principio de robustez, un algoritmo debe comportarse de acuerdo con las especificaciones en todas las circunstancias posibles.
 
 Ejemplo:
 
@@ -43,6 +46,8 @@ Debemos poner de relieve algunas premisas de este algoritmo:
 - Colocarse los zapatos.
 
    Otro factor a tener en consideracion es el hecho de que las acciones deben ser realizadas en el orden indicado, ya que obviar algun paso o ejecutarlo en un orden diferente al indicado no garantiza la correcta ejecucion de la accion planteada.
+
+   Todo algoritmo es considerado inicialmente como un proceso secuencial, en virtud de que las acciones que los conforman se ejecutan unas a continuacion de otras y nunca se ejecutan de manera simultanea.
 
 ## Caracteristicas de los algoritmos
 
@@ -94,6 +99,8 @@ El tipo de dato es el conjunto de valores que puede una variable junto con un co
 # Representación del problema en lenguaje algoritmico
 
    Un problema algorítmico es aquel que es susceptible de ser resuelto con la ayuda de un computador, ya que requiere la ejecucion de una serie de pasos bien definidos que llevan a la obtencion de un resultado a partir de una serie de datos de entrada ingresados por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a traves del teclado, otro programa o un sistema externo al mismo.
+
+   Las computadoras poseen solo un repertorio limitado de instrucciones elementales que es capaz de comprender y obedecer, las cuales se ejecutan con gran rapidez y confiabilidad.
 
    Una vez determinados el estado inicial y final del algoritmo, lo que representa la entrada y la salida del mismo, procedemos a describir el proceso que debe ser ejecutado para a partir de las entradas definidas, obtener el resultado final esperado, proceso durante el cual el usuario pierde el control sobre el algoritmo que se esta ejecutando y todo el proceso es completamente automatico. El proceso que debe ser llevado a cabo para obtener el valor promedio de una serie de datos de entrada se describe a continuacion:
 
