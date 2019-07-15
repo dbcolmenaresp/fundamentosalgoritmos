@@ -94,7 +94,13 @@ Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entr
 
 Para determinar de forma clara y precisa el conjunto de valores que se ingresan, procesan y muestran durante la ejecucion de un algoritmo, se debe ter muy claro los tipos de datos que existen para su representacion.
 
-El tipo de dato es el conjunto de valores que puede una variable junto con un conjunto de operaciones que se pueden realizar sobre esa variable.Los tipos de datos basicos son el logico, el caracter, el entero y el valor real.
+El tipo de dato es el conjunto de valores que puede una variable junto con un conjunto de operaciones que se pueden realizar sobre esa variable. Los tipos de datos basicos son el logico, el caracter, el entero y el valor real.
+
+## Variables
+
+Una variable se puede comparar con un pizarron donde se escribe un valor, este puede leerse tantas veces como sea necesario, se puede borrar el valor actual y sobreescribirlo con un nuevo valor, con la observacion de que esta sobreescritura implica la perdida del valor anterior.
+
+Para almacenar un valor determinado en una variable, se debe tener en consideracion que dicho valor debe ser del tipo de dato del que se definio dicha variable, esta accion se realiza con la operacion de asignacion, que se representa con el simbolo igual (=).
 
 # Representación del problema en lenguaje algoritmico
 
