@@ -208,15 +208,15 @@ la funcion printf() tiene un valor de retorno de tipo int que representa el nume
 
 Se imprime la cadena indicada en "cadena de control", ademas de una serie de argumentos cuyo formato se indica de la siguiente manera:
 
-%d, %i		decimal entero
-%u		entero sin signo
-%c		caracter
-%f		notacion decimal de punto flotante
-%p		puntero
-%o		octal sin signo
-%x, %X		hexadecimal sin signo
-%s		cadena de caracteres
-%e, %g		notacion cientifica de punto flotante
+%d, %i		decimal entero  
+%u		      entero sin signo  
+%c		      caracter  
+%f		      notacion decimal de punto flotante  
+%p		      puntero  
+%o		      octal sin signo  
+%x, %X		hexadecimal sin signo  
+%s		      cadena de caracteres  
+%e, %g		notacion cientifica de punto flotante  
 
 La funcion scanf() se usa para leer datos de la entrada estandar, el teclado por defecto, la forma general de esta funcion es la siguiente:
 
