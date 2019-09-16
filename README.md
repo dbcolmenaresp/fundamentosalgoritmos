@@ -91,7 +91,7 @@ Para determinar de forma clara y precisa el conjunto de valores que se ingresan,
 
 El tipo de dato es el conjunto de valores que puede una variable junto con un conjunto de operaciones que se pueden realizar sobre esa variable. Los tipos de datos basicos son el entero, el valor real, el lógico, el caracter y la cadena de caracteres.
 
-- El tipo de dato entero son números que solo toman valores enteros, como 1, 2 o 3
+- El tipo de dato entero son números que solo toman valores enteros, aquellos que no permiten parte decimal, como 1, 2 o 3
 
 - El tipo de dato real son números que contienen una parte decimal, como 10.25 o 3.141594
 
@@ -149,7 +149,11 @@ Promedio = Suma / Numero de datos
 
 Mostrar en pantalla el valor Promedio
 
-   Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, se procede a realizar su construccion en un lenguaje de programacion que permita ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de manera automatica.
+   Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, se procede a realizar su construccion en un lenguaje de pseudocodigo con la finalidad de facilitar su traduccion a un lenguaje de programacion especifico, que permita ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de manera automatica.
+
+# Creación de un programa en [Pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo) con [PSeInt](https://es.wikipedia.org/wiki/PSeInt)
+
+La finalidad del uso del Pseudocódico es traducir un algoritmo en lenguaje natural a un lenguaje formal que falicite su conversión a un lenguaje de programación específico. Para la creacion de programas en pseudocodigo, para entender los principios de la programacion, se puede usar la aplicacion [PSeInt](http://pseint.sourceforge.net/). PSeInt es una herramienta para asistir a un estudiante en sus primeros pasos en programación. Mediante un simple e intuitivo pseudolenguaje en español (complementado con un editor de diagramas de flujo), le permite centrar su atención en los conceptos fundamentales de la algoritmia computacional, minimizando las dificultades propias de un lenguaje y proporcionando un entorno de trabajo con numerosas ayudas y recursos didácticos.
 
 # Lenguaje de programación C
 
