@@ -113,7 +113,7 @@ Para almacenar un valor determinado en una variable, se debe tener en considerac
 
    Las computadoras poseen solo un repertorio limitado de instrucciones elementales que es capaz de comprender y obedecer, las cuales se ejecutan con gran rapidez y confiabilidad.
 
-   Una vez determinados el estado inicial y final del algoritmo, lo que representa la entrada y la salida del mismo, procedemos a describir el proceso que debe ser ejecutado para a partir de las entradas definidas, obtener el resultado final esperado, proceso durante el cual el usuario pierde el control sobre el algoritmo que se esta ejecutando y todo el proceso es completamente automatico. El proceso que debe ser llevado a cabo para obtener el valor promedio de una serie de datos de entrada se describe a continuacion:
+   Una vez determinados el estado inicial y final del algoritmo, lo que representa la entrada y la salida del mismo, procedemos a describir en *lenguaje natural* el proceso que debe ser ejecutado para a partir de las entradas definidas, obtener el resultado final esperado, proceso durante el cual el usuario pierde el control sobre el algoritmo que se esta ejecutando y todo el proceso es completamente automatico. El proceso que debe ser llevado a cabo para obtener el valor promedio de una serie de datos de entrada se describe a continuacion:
 
 1. Obtener los datos de entrada.
 2. Determinar el numero de elementos que componen el conjunto de datos de entrada.
@@ -128,9 +128,9 @@ ingresado.
 se van a ingresar al programa, digitadosdirectamente por el usuario, a traves de un archivo con valores, como resultado de otra funcion del mismo programa, etc. En el caso que nos ocupa como se definio un conjunto no vacio de datos, esto significa que debe existir por lo menos un dato de entrada para realizar el calculo correspondiente. Se asume para efectos del programa que se va a desarrollar, que los datos se ingresan a traves del teclado.
 
 Mostrar en pantalla el mensaje de ingresar datos para el calculo
-Ingresar dato 1
-Ingresar dato 2
-Ingresar dato 3
+Ingresar dato 1  
+Ingresar dato 2  
+Ingresar dato 3  
 
 2. Determinar el numero de elementos que componen el conjunto de datos de entrada: se debe hacer un conteo del numero de datos que se ingresan al programa.
 
@@ -154,6 +154,16 @@ Mostrar en pantalla el valor Promedio
 # Creación de un programa en [Pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo) con [PSeInt](https://es.wikipedia.org/wiki/PSeInt)
 
 La finalidad del uso del Pseudocódico es traducir un algoritmo en lenguaje natural a un lenguaje formal que falicite su conversión a un lenguaje de programación específico. Para la creacion de programas en pseudocodigo, para entender los principios de la programacion, se puede usar la aplicacion [PSeInt](http://pseint.sourceforge.net/). PSeInt es una herramienta para asistir a un estudiante en sus primeros pasos en programación. Mediante un simple e intuitivo pseudolenguaje en español (complementado con un editor de diagramas de flujo), le permite centrar su atención en los conceptos fundamentales de la algoritmia computacional, minimizando las dificultades propias de un lenguaje y proporcionando un entorno de trabajo con numerosas ayudas y recursos didácticos.
+
+Para facilitar la conversion del algoritmo planteado, como se habia indicado con anterioridad, se expresa el mismo en lenguaje de pseudocodigo, lo que hace al algoritmo comprensible y manejable, brindando ademas la posibilidad de probar el mismo con PSeInt.
+
+1. Obtener los datos de entrada.
+2. Determinar el numero de elementos que componen el conjunto de datos de entrada.
+3. Calcular la suma de todos los valores de los datos ingresados por el usuario.
+4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores 
+ingresado.
+5. Mostrar el valor promedio de los datos ingresados.
+
 
 # Lenguaje de programación C
 
