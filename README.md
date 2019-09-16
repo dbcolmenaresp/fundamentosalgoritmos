@@ -4,18 +4,10 @@ Proyecto de fines educativos.
 
 Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su implementación en lenguaje C.
 
-# Contenido
-
-[Algoritmos](#algoritmos)  
-[Representacion del problema en lenguaje algoritmico](#-representacion del problema en lenguaje algoritmico-)
-[Lenguaje de programación C](#-lenguaje de programacion C-)
-[Codificación del algoritmo en lenguaje C](#-codificacion del algoritmo en lenguaje C-)
-[Referencias](#referencias)
-
 # Algoritmos
 ---
 
-   Un [algoritmo](https://es.wikipedia.org/wiki/Algoritmo) es un conjunto finito, ordenado y no ambiguo de reglas y operaciones con el fin de resolver un problema o realizar una acividad determinada.
+   Un [algoritmo](https://es.wikipedia.org/wiki/Algoritmo) es un conjunto finito, ordenado y no ambiguo de reglas y operaciones con el fin de resolver un problema, cumplir un objetivo o realizar una acividad determinada.
    
 [![Algoritmos](https://img.youtube.com/vi/L2CtMfqkS-c/0.jpg)](https://www.youtube.com/watch?v=L2CtMfqkS-c)
 
@@ -32,10 +24,11 @@ Algoritmo de los pasos que se deben realizar para ir a trabajar:
 
 1. Levantarse de la cama.
 2. Quitarse la pijama.
-3. Tomar una ducha.
-4. Vestirse.
-5. Tomar el desayuno.
-6. Diritirse al trabajo.
+3. Dirigirse al baño.
+4. Tomar una ducha.
+5. Vestirse.
+6. Tomar el desayuno.
+7. Diritirse al trabajo.
 
 Debemos poner de relieve algunas premisas de este algoritmo:
 
@@ -96,7 +89,17 @@ Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entr
 
 Para determinar de forma clara y precisa el conjunto de valores que se ingresan, procesan y muestran durante la ejecucion de un algoritmo, se debe ter muy claro los tipos de datos que existen para su representacion.
 
-El tipo de dato es el conjunto de valores que puede una variable junto con un conjunto de operaciones que se pueden realizar sobre esa variable. Los tipos de datos basicos son el logico, el caracter, el entero y el valor real.
+El tipo de dato es el conjunto de valores que puede una variable junto con un conjunto de operaciones que se pueden realizar sobre esa variable. Los tipos de datos basicos son el entero, el valor real, el lógico, el caracter y la cadena de caracteres.
+
+- El tipo de dato entero son números que solo toman valores enteros, como 1, 2 o 3
+
+- El tipo de dato real son números que contienen una parte decimal, como 10.25 o 3.141594
+
+- El tipo de dato lógico es aquel que solo puede tomar dos posibles valores, o verdadero o falso.
+
+- El tipo de dato caracter es aquel que esta conformado por un solo caracter como 'a' o 'z'.
+
+- El tipo de dato cadena de caracteres es aquel conformado por una serie de caracteres, como "nombre" o "Hola mundo".
 
 ## Variables
 
@@ -106,7 +109,7 @@ Para almacenar un valor determinado en una variable, se debe tener en considerac
 
 # Representación del problema en lenguaje algoritmico
 
-   Un problema algorítmico es aquel que es susceptible de ser resuelto con la ayuda de un computador, ya que requiere la ejecucion de una serie de pasos bien definidos que llevan a la obtencion de un resultado a partir de una serie de datos de entrada ingresados por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a traves del teclado, otro programa o un sistema externo al mismo.
+   Un problema algorítmico es aquel que es susceptible de ser resuelto con la ayuda de un computador, ya que requiere la ejecución de una serie de pasos bien definidos que llevan a la obtencion de un resultado a partir de una serie de datos de entrada ingresados por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a traves del teclado, otro programa o un sistema externo al mismo.
 
    Las computadoras poseen solo un repertorio limitado de instrucciones elementales que es capaz de comprender y obedecer, las cuales se ejecutan con gran rapidez y confiabilidad.
 
