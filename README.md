@@ -115,11 +115,11 @@ Para almacenar un valor determinado en una variable, se debe tener en considerac
 
    Una vez determinados el estado inicial y final del algoritmo, lo que representa la entrada y la salida del mismo, procedemos a describir en *lenguaje natural* el proceso que debe ser ejecutado para a partir de las entradas definidas, obtener el resultado final esperado, proceso durante el cual el usuario pierde el control sobre el algoritmo que se esta ejecutando y todo el proceso es completamente automatico. El proceso que debe ser llevado a cabo para obtener el valor promedio de una serie de datos de entrada se describe a continuacion:
 
-1. Obtener los datos de entrada.  
-2. Determinar el numero de elementos que componen el conjunto de datos de entrada.  
-3. Calcular la suma de todos los valores de los datos ingresados por el usuario.  
-4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.  
-5. Mostrar el valor promedio de los datos ingresados.  
+   1. Obtener los datos de entrada.  
+   2. Determinar el numero de elementos que componen el conjunto de datos de entrada.  
+   3. Calcular la suma de todos los valores de los datos ingresados por el usuario.  
+   4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.  
+   5. Mostrar el valor promedio de los datos ingresados.  
 
    Una vez establecidos los pasos que deben ser ejecutados para lograr el resultado deseado, se procede a describir de manera detallada cada paso con al finalidad de alcarar el proceso que debe ser realizado en cada paso para su posterior codificacion.
 
