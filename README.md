@@ -313,6 +313,9 @@ Fundamentos de programacion Luis Joyanes Aguilar
 Pere Brunet. Nosotros y los algoritmos. El Mundo. Disponible en:
 <http://www.elmundo.es/economia/2017/02/27/58b404f846163fc7208b45cd.html>
 
+Manual de PSeInt  
+<https://drive.google.com/open?id=1lrJgRBGpUM4L5MbCb9MgNEtHqrze_VBd>
+
 Fundamentos de programacion en C  
 <https://openlibra.com/es/book/fundamentos-de-programacion-en-c>
 
