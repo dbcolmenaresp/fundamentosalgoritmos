@@ -153,6 +153,8 @@ Ingresar dato 3*
 
 La finalidad del uso del Pseudocódico es traducir un algoritmo en lenguaje natural a un lenguaje formal que falicite su conversión a un lenguaje de programación específico. Para la creacion de programas en pseudocodigo, para entender los principios de la programacion, se puede usar la aplicacion [PSeInt](http://pseint.sourceforge.net/). PSeInt es una herramienta para asistir a un estudiante en sus primeros pasos en programación. Mediante un simple e intuitivo pseudolenguaje en español (complementado con un editor de diagramas de flujo), le permite centrar su atención en los conceptos fundamentales de la algoritmia computacional, minimizando las dificultades propias de un lenguaje y proporcionando un entorno de trabajo con numerosas ayudas y recursos didácticos.
 
+[![PSeInt](https://img.youtube.com/vi/RObTkiOjXpg/0.jpg)](https://www.youtube.com/watch?v=RObTkiOjXpg)
+
 Para facilitar la conversion del algoritmo planteado, como se habia indicado con anterioridad, se expresa el mismo en lenguaje de pseudocodigo, lo que hace al algoritmo comprensible y manejable, brindando ademas la posibilidad de probar el mismo con PSeInt.
 
 1. Obtener los datos de entrada.
