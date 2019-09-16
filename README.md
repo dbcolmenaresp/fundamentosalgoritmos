@@ -16,6 +16,8 @@ Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su im
 ---
 
    Un [algoritmo](https://es.wikipedia.org/wiki/Algoritmo) es un conjunto finito, ordenado y no ambiguo de reglas y operaciones con el fin de resolver un problema o realizar una acividad determinada.
+   
+[![Algoritmos](https://img.youtube.com/vi/L2CtMfqkS-c/0.jpg)](https://www.youtube.com/watch?v=L2CtMfqkS-c)
 
    Un algoritmo debe determinar las acciones que se deben ejecutar y el orden en el cual deben ser ejecutadas para resolver un problema con el uso de una computadora.
 
