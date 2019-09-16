@@ -331,6 +331,9 @@ Pere Brunet. Nosotros y los algoritmos. El Mundo. Disponible en:
 Manual de PSeInt  
 <https://drive.google.com/open?id=1lrJgRBGpUM4L5MbCb9MgNEtHqrze_VBd>
 
+Lista de reproducción de videos PSeInt  
+<https://www.youtube.com/playlist?list=PLiplYDjUMtth8RvrndUPDVOMD20I4O2Wd>
+
 Fundamentos de programacion en C  
 <https://openlibra.com/es/book/fundamentos-de-programacion-en-c>
 
