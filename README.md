@@ -7,6 +7,8 @@ Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su im
 # Algoritmos
 ---
 
+  Nuestra vida, ya sea que trabajemos con computadoras o no, esta llena de algoritmos, una receta de cocina, por ejemplo, es un algoritmo, suponiendo que se pienza en el acto de cocinar como un proceso, con un conjunto de ingredientes como los elementos de entrada, una serie de pasos de cocción y preparación como los pasos a realizar y un plato realizado como el resultado final de la aplicación de dicho proceso.
+
    Un [algoritmo](https://es.wikipedia.org/wiki/Algoritmo) es un conjunto finito, ordenado y no ambiguo de reglas y operaciones con el fin de resolver un problema, cumplir un objetivo o realizar una acividad determinada.
    
 [![Algoritmos](https://img.youtube.com/vi/L2CtMfqkS-c/0.jpg)](https://www.youtube.com/watch?v=L2CtMfqkS-c)
