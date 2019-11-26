@@ -24,6 +24,7 @@ Ejemplo:
 
 Algoritmo de los pasos que se deben realizar para ir a trabajar:
 
+```
 1. Levantarse de la cama.
 2. Quitarse la pijama.
 3. Dirigirse al baño.
@@ -31,17 +32,20 @@ Algoritmo de los pasos que se deben realizar para ir a trabajar:
 5. Vestirse.
 6. Tomar el desayuno.
 7. Diritirse al trabajo.
+```
 
 Debemos poner de relieve algunas premisas de este algoritmo:
 
    Primeramente el nivel de detalle puede ser diferente segun la interpretacion de quien lo construye y segun el uso que se le hara al algoritmo. Por ejemplo, el paso 4 que corresponde a la accion de vestirse puede ser expresada en pasos mas detallados, segun el requerimiento, puede necesitar ser descompuesto en los detalles siguientes:
 
-- Colocarse la ropa interior.
-- Colocarse el pantalon.
-- Colocarse la camisa.
-- Colocarse los calcetines.
-- Colocarse los zapatos.
-
+```
+5.1 Colocarse la ropa interior.
+5.2 Colocarse el pantalon.
+5.3 Colocarse la camisa.
+5.4 Colocarse los calcetines.
+5.5 Colocarse los zapatos.
+```
+   
    Otro factor a tener en consideracion es el hecho de que las acciones deben ser realizadas en el orden indicado, ya que obviar algun paso o ejecutarlo en un orden diferente al indicado no garantiza la correcta ejecucion de la accion planteada.
 
    Todo algoritmo es considerado inicialmente como un proceso secuencial, en virtud de que las acciones que los conforman se ejecutan unas a continuacion de otras y nunca se ejecutan de manera simultanea.
@@ -120,18 +124,21 @@ El valor almacenado en una variable a través de un operador de asignación pued
 
 -	Un valor simple que se corresponda con el tipo de variable en la cual se v a almacenar.
 
-
+```
 entero a; // Se declara una variable de tipo entero
 a = 10; // Se le asigna a la variable a el valor de 10
-
+```
 
 -	El valor contendido en otra variable del mismo tipo
 
+```
 entero b = 15; // Se declara e inicializa una variable de tipo entero con el valor 15
 a = b; // Se asigna a la variable a el valor contenido en la variable b
+```
 
 -	El valor de retorno de una función
 
+```
 entero suma(int a, int b){
     return a + b; // Se retorna el valor de la suma de los argumentos recibidos por la función
 }
@@ -142,11 +149,14 @@ entero main(){
     z = suma(x, y);
     retornar 0;
 }
+```
 
 -	El resultado de una expresión que puede contener valores simples, variables y funciones
 entero w;
-w = 10 * suma(x, y) + b; // Se asigna a la variable entera w el resultado de la expresión indicada
 
+```
+w = 10 * suma(x, y) + b; // Se asigna a la variable entera w el resultado de la expresión indicada
+```
 
 # Representación del problema en lenguaje algoritmico
 
@@ -156,11 +166,13 @@ w = 10 * suma(x, y) + b; // Se asigna a la variable entera w el resultado de la 
 
    Una vez determinados el estado inicial y final del algoritmo, lo que representa la entrada y la salida del mismo, procedemos a describir en *lenguaje natural* el proceso que debe ser ejecutado para a partir de las entradas definidas, obtener el resultado final esperado, proceso durante el cual el usuario pierde el control sobre el algoritmo que se esta ejecutando y todo el proceso es completamente automatico. El proceso que debe ser llevado a cabo para obtener el valor promedio de una serie de datos de entrada se describe a continuacion:
 
+```
    1. Obtener los datos de entrada.  
    2. Determinar el numero de elementos que componen el conjunto de datos de entrada.  
    3. Calcular la suma de todos los valores de los datos ingresados por el usuario.  
    4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado.  
    5. Mostrar el valor promedio de los datos ingresados.  
+```
 
    Una vez establecidos los pasos que deben ser ejecutados para lograr el resultado deseado, se procede a describir de manera detallada cada paso con al finalidad de alcarar el proceso que debe ser realizado en cada paso para su posterior codificacion.
 
@@ -168,25 +180,35 @@ w = 10 * suma(x, y) + b; // Se asigna a la variable entera w el resultado de la 
 
 Mostrar en pantalla el mensaje de ingresar datos para el calculo  
 
-*Ingresar dato 1  
+```
+Ingresar dato 1  
 Ingresar dato 2  
-Ingresar dato 3*  
+Ingresar dato 3
+```
 
 2. Determinar el numero de elementos que componen el conjunto de datos de entrada: se debe hacer un conteo del numero de datos que se ingresan al programa.
 
-*Numero de datos = 3*
+```
+Numero de datos = 3
+```
 
 3. Calcular la suma de todos los valores de los datos ingresados por el usuario: se procede a sumar los valores de los datos ingresados por el usuario.
 
-*Suma = dato 1 + dato 2 + dato 3*
+```
+Suma = dato 1 + dato 2 + dato 3
+```
 
 4. Calcular el valor promedio de la suma de los valores dividido entre el numero de valores ingresado: se procede a realizar la division entre la suma de los valores de los datos ingresados por el usuario y el numero de datos ingresados, el valor obtenido corresponde al valor promedio.
 
-*Promedio = Suma / Numero de datos*
+```
+Promedio = Suma / Numero de datos
+```
 
 5. Mostrar el valor promedio de los datos ingresados: se debe determinar si se muestra el valor obtenido o se pasa como un valor a otra funcion u otro dispositivo que lo requiera, en el caso que nos ocupa, se muestra el valor en la pantalla del computador.
 
-*Mostrar en pantalla el valor Promedio*
+```
+Mostrar en pantalla el valor Promedio
+```
 
    Una vez definidos la entrada, el proceso y la salida obtenida del algoritmo diseñado, se procede a realizar su construccion en un lenguaje de pseudocodigo con la finalidad de facilitar su traducción a un lenguaje de programación específico, que permita ejecutarlo para comprobar su resultado y proceder a realizar este mismo proceso de manera automática.
 
