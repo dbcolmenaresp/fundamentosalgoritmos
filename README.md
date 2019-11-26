@@ -109,6 +109,45 @@ Una variable se puede comparar con un pizarron donde se escribe un valor, este p
 
 Para almacenar un valor determinado en una variable, se debe tener en consideracion que dicho valor debe ser del tipo de dato del que se definio dicha variable, esta accion se realiza con la operacion de asignacion, que se representa con el simbolo igual (=).
 
+## Sentencia de asignacion
+
+El operador de asignación es el operador mas básico y frecuentemente usado en los programas.
+Consiste en almacenar el valor indicado a la derecha de una sentencia en la variable indicada a la izquierda de dicha sentencia.
+
+El valor almacenado en una variable permanece guardado sin modificaciones hasta que dicho valor se cambia a través de una sentencia con el operador de asignación o hasta que finaliza el programa.
+
+El valor almacenado en una variable a través de un operador de asignación puede provenir de uno de los siguientes casos:
+
+-	Un valor simple que se corresponda con el tipo de variable en la cual se v a almacenar.
+
+
+entero a; // Se declara una variable de tipo entero
+a = 10; // Se le asigna a la variable a el valor de 10
+
+
+-	El valor contendido en otra variable del mismo tipo
+
+entero b = 15; // Se declara e inicializa una variable de tipo entero con el valor 15
+a = b; // Se asigna a la variable a el valor contenido en la variable b
+
+-	El valor de retorno de una función
+
+entero suma(int a, int b){
+    return a + b; // Se retorna el valor de la suma de los argumentos recibidos por la función
+}
+entero main(){
+    entero x = 5;
+    entero y = 15;
+    entero z;
+    z = suma(x, y);
+    retornar 0;
+}
+
+-	El resultado de una expresión que puede contener valores simples, variables y funciones
+entero w;
+w = 10 * suma(x, y) + b; // Se asigna a la variable entera w el resultado de la expresión indicada
+
+
 # Representación del problema en lenguaje algoritmico
 
    Un problema algorítmico es aquel que es susceptible de ser resuelto con la ayuda de un computador, ya que requiere la ejecución de una serie de pasos bien definidos que llevan a la obtencion de un resultado a partir de una serie de datos de entrada ingresados por el usuario de dicho programa, bien sea este ultimo un ser humano que ingresa datos a traves del teclado, otro programa o un sistema externo al mismo.
