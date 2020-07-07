@@ -93,9 +93,9 @@ Pos: entrada = vacio y salida = valor promedio de los datos ingresados como entr
 
 ## Tipos de datos
 
-Para determinar de forma clara y precisa el conjunto de valores que se ingresan, procesan y muestran durante la ejecucion de un algoritmo, se debe ter muy claro los tipos de datos que existen para su representacion.
+El tipo de dato define el conjunto de valores que puede tomar una variable, junto con el conjunto de operaciones que se pueden realizar sobre dicha variable. Por ejemplo, el tipo entero simple define un conjunto de valores enteros comprendidos en un determinado intervalo, para los que estan definidas las operaciones de suma, resta, multiplicación y división (entre otras).
 
-El tipo de dato es el conjunto de valores que puede una variable junto con un conjunto de operaciones que se pueden realizar sobre esa variable. Los tipos de datos basicos son el entero, el valor real, el lógico, el caracter y la cadena de caracteres.
+Para determinar de forma clara y precisa el conjunto de valores que se ingresan, procesan y muestran durante la ejecucion de un algoritmo, se debe tener muy claro los tipos de datos que existen para su representacion. Los tipos de datos basicos son el entero, el valor real, el lógico, el caracter y la cadena de caracteres.
 
 - El tipo de dato entero son números que solo toman valores enteros, aquellos que no permiten parte decimal, como 1, 2 o 3
 
