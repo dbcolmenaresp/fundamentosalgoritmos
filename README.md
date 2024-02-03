@@ -1,13 +1,13 @@
 # Fundamentos de algoritmos
 
-Proyecto de fines educativos.
+Proyecto con fines educativos.
 
-Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su implementación en lenguaje C.
+Proyecto donde se analizan los fundamentos del desarrollo de algorítmos y su implementación en lenguaje C.
 
 # Algoritmos
 ---
 
-  Nuestra vida, ya sea que trabajemos con computadoras o no, esta llena de algoritmos, una receta de cocina, por ejemplo, es un algoritmo, suponiendo que se pienza en el acto de cocinar como un proceso, con un conjunto de ingredientes como los elementos de entrada, una serie de pasos de cocción y preparación como los pasos a realizar y un plato realizado como el resultado final de la aplicación de dicho proceso.
+  Nuestra vida, ya sea que trabajemos con computadoras o no, esta llena de algoritmos. Una receta de cocina, por ejemplo, es un algoritmo, suponiendo que se piensa en el acto de cocinar como un proceso, con un conjunto de ingredientes como los elementos de entrada, una serie de pasos de preparación de estos ingredientes y cocción como los pasos a realizar y un plato realizado como el resultado final de la aplicación de dicho proceso.
 
    Un [algoritmo](https://es.wikipedia.org/wiki/Algoritmo) es un conjunto finito, ordenado y no ambiguo de reglas y operaciones con el fin de resolver un problema, cumplir un objetivo o realizar una acividad determinada.
    
@@ -17,10 +17,13 @@ Proyecto donde se analizan los fundamentos del desarrollo de algirítmos y su im
 
    La ejecucion de un algoritmo implica la entrada, el almacenamiento, el tratamiento y la salida de ciertos datos que deben ser procesados para lograr el fin para el cual se diseña el algoritmo en cuestion.
    
-   El conocimiento de los fundamentos de la construcción de algoritmos constituye la base para quienes pretenden construir programas y sistemas que cumplan con los más básicas atributos de calidad: robustez, confiabilidad, eficiencia, economía.
-Para que se cumpla con el principio de robustez, un algoritmo debe comportarse de acuerdo con las especificaciones en todas las circunstancias posibles.
+   El conocimiento de los fundamentos de la construcción de algoritmos constituye la base para quienes pretenden construir programas y sistemas que cumplan con los más básicos atributos de calidad: robustez, confiabilidad, eficiencia, economía.
 
-Ejemplo:
+   Para que se cumpla con el principio de robustez, el algorítmo debe funcionar de manera correcta ante diferentes datos que se ingresen al mismo, para lo cual uno de los principales requerimientos es el de validar los valores ingresados por el usuario, que correspondan con el tipo de dato esperado y con el rango de valores correcto.
+   
+   Para que se cumpla con el principio de confiabilidad,un algoritmo debe comportarse de acuerdo con las especificaciones establecidas en todas las circunstancias posibles.
+
+# Ejemplo de un algorítmo:
 
 Algoritmo de los pasos que se deben realizar para ir a trabajar:
 
@@ -36,7 +39,7 @@ Algoritmo de los pasos que se deben realizar para ir a trabajar:
 
 Debemos poner de relieve algunas premisas de este algoritmo:
 
-   Primeramente el nivel de detalle puede ser diferente segun la interpretacion de quien lo construye y segun el uso que se le hara al algoritmo. Por ejemplo, el paso 4 que corresponde a la accion de vestirse puede ser expresada en pasos mas detallados, segun el requerimiento, puede necesitar ser descompuesto en los detalles siguientes:
+   Primeramente el nivel de detalle puede ser diferente según la interpretación de quien lo construye y según el uso que se le hara al algoritmo. Por ejemplo, el paso 5 que corresponde a la accion de vestirse puede ser expresada en pasos mas detallados, segun el requerimiento, puede necesitar ser descompuesto en los detalles siguientes:
 
 ```
 5.1 Colocarse la ropa interior.
@@ -46,7 +49,7 @@ Debemos poner de relieve algunas premisas de este algoritmo:
 5.5 Colocarse los zapatos.
 ```
    
-   Otro factor a tener en consideracion es el hecho de que las acciones deben ser realizadas en el orden indicado, ya que obviar algun paso o ejecutarlo en un orden diferente al indicado no garantiza la correcta ejecucion de la accion planteada.
+   Otro factor a tener en consideracion es el hecho de que las acciones deben ser realizadas en el orden indicado, ya que obviar algún paso o ejecutarlo en un orden diferente al indicado no garantiza la correcta ejecución de la acción planteada.
 
    Todo algoritmo es considerado inicialmente como un proceso secuencial, en virtud de que las acciones que los conforman se ejecutan unas a continuacion de otras y nunca se ejecutan de manera simultanea.
 
@@ -55,10 +58,10 @@ Debemos poner de relieve algunas premisas de este algoritmo:
    La descripcion de un problema en lenguaje algoritmico debe cumplir con algunas suposiciones necesarias para una adecuada resolucion del problema que se pretende resolver por medio del uso de una computadora:
 
 - El numero de datos de entrada para ser procesados por el algoritmo pueden ser indeterminados pero debe ser un numero finito de datos.
-- Para poder usar los datos para la realizacion de las operaciones, primero deben obtenerse para su uso.
+- Para poder usar los datos en la realización de las operaciones especificadas, primero deben obtenerse para su uso.
 - Un algoritmo debe ejecutarse en un numero finito de pasos para considerarse como tal.
 - Los pasos que conforman la descripcion del proceso deben realizarse en el orden especifico en el que fueron especificados.
-- Los pasos que conforman la descripcion del proceso deben pertenecer a acciones correspondientes al repertorio de las realizables por la computadora.
+- Los pasos que conforman la descripcion del proceso deben pertenecer a acciones correspondientes al repertorio de las acciones realizables por una computadora.
 
    Para representar el diseño de un algoritmo sencillo, se utiliza un lenguaje con sintaxis limitada llamado [pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo), el cual se utiliza con la finalidad de traducir la descripcion del problema a un lenguaje intermedio entre el castellano y el [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n) que se va a utilizar para resolver el problema en cuestión, esto con la finalidad de facilitar el diseño del programa.
    
